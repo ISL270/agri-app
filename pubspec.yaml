@@ -25,6 +25,7 @@ dependencies:
   gap: ^3.0.1
   google_fonts: ^6.1.0
   intl: ^0.18.1
+  sliding_clipped_nav_bar: ^3.1.0+4
 
 
 dev_dependencies:
