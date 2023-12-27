@@ -1,0 +1,341 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/eslam/Development/Flutter projects/agri/build/ios/Debug-development-iphonesimulator/GoogleSignIn/GoogleSignIn.framework/GoogleSignIn'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x57C6D, size: 0x8, addend: 0x0, symName: _GoogleSignInVersionString, symObjAddr: 0x0, symBinAddr: 0xF9B0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x57CA2, size: 0x8, addend: 0x0, symName: _GoogleSignInVersionNumber, symObjAddr: 0x30, symBinAddr: 0xF9E0, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x57CDF, size: 0x8, addend: 0x0, symName: '-[GIDAppAuthFetcherAuthorizationEMMChainedDelegate initWithDelegate:selector:]', symObjAddr: 0x0, symBinAddr: 0x15C0, symSize: 0x7B }
+  - { offsetInCU: 0xDB, offset: 0x57D93, size: 0x8, addend: 0x0, symName: '-[GIDAppAuthFetcherAuthorizationEMMChainedDelegate initWithDelegate:selector:]', symObjAddr: 0x0, symBinAddr: 0x15C0, symSize: 0x7B }
+  - { offsetInCU: 0x15B, offset: 0x57E13, size: 0x8, addend: 0x0, symName: '-[GIDAppAuthFetcherAuthorizationEMMChainedDelegate authentication:request:finishedWithError:]', symObjAddr: 0x7B, symBinAddr: 0x163B, symSize: 0xD6 }
+  - { offsetInCU: 0x279, offset: 0x57F31, size: 0x8, addend: 0x0, symName: '___93-[GIDAppAuthFetcherAuthorizationEMMChainedDelegate authentication:request:finishedWithError:]_block_invoke', symObjAddr: 0x151, symBinAddr: 0x1711, symSize: 0x1C6 }
+  - { offsetInCU: 0x4E0, offset: 0x58198, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x317, symBinAddr: 0x18D7, symSize: 0x2C }
+  - { offsetInCU: 0x52D, offset: 0x581E5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x343, symBinAddr: 0x1903, symSize: 0x2C }
+  - { offsetInCU: 0x570, offset: 0x58228, size: 0x8, addend: 0x0, symName: '-[GIDAppAuthFetcherAuthorizationEMMChainedDelegate .cxx_destruct]', symObjAddr: 0x36F, symBinAddr: 0x192F, symSize: 0x26 }
+  - { offsetInCU: 0x5A3, offset: 0x5825B, size: 0x8, addend: 0x0, symName: '-[GIDAppAuthFetcherAuthorizationWithEMMSupport authorizeRequest:delegate:didFinishSelector:]', symObjAddr: 0x395, symBinAddr: 0x1955, symSize: 0xB3 }
+  - { offsetInCU: 0x696, offset: 0x5834E, size: 0x8, addend: 0x0, symName: '-[GIDAppAuthFetcherAuthorizationWithEMMSupport authorizeRequest:completionHandler:]', symObjAddr: 0x448, symBinAddr: 0x1A08, symSize: 0xAB }
+  - { offsetInCU: 0x72A, offset: 0x583E2, size: 0x8, addend: 0x0, symName: '___83-[GIDAppAuthFetcherAuthorizationWithEMMSupport authorizeRequest:completionHandler:]_block_invoke', symObjAddr: 0x4F3, symBinAddr: 0x1AB3, symSize: 0x7D }
+  - { offsetInCU: 0x7AF, offset: 0x58467, size: 0x8, addend: 0x0, symName: '___83-[GIDAppAuthFetcherAuthorizationWithEMMSupport authorizeRequest:completionHandler:]_block_invoke_2', symObjAddr: 0x570, symBinAddr: 0x1B30, symSize: 0xF }
+  - { offsetInCU: 0x80D, offset: 0x584C5, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x57F, symBinAddr: 0x1B3F, symSize: 0x17 }
+  - { offsetInCU: 0x27, offset: 0x586D7, size: 0x8, addend: 0x0, symName: '-[GIDAuthentication initWithAuthState:]', symObjAddr: 0x0, symBinAddr: 0x1B56, symSize: 0x6B }
+  - { offsetInCU: 0x73, offset: 0x58723, size: 0x8, addend: 0x0, symName: '-[GIDAuthentication initWithAuthState:]', symObjAddr: 0x0, symBinAddr: 0x1B56, symSize: 0x6B }
+  - { offsetInCU: 0xE3, offset: 0x58793, size: 0x8, addend: 0x0, symName: '+[GIDAuthentication supportsSecureCoding]', symObjAddr: 0x6B, symBinAddr: 0x1BC1, symSize: 0x8 }
+  - { offsetInCU: 0x116, offset: 0x587C6, size: 0x8, addend: 0x0, symName: '-[GIDAuthentication initWithCoder:]', symObjAddr: 0x73, symBinAddr: 0x1BC9, symSize: 0x9E }
+  - { offsetInCU: 0x1AA, offset: 0x5885A, size: 0x8, addend: 0x0, symName: '-[GIDAuthentication encodeWithCoder:]', symObjAddr: 0x111, symBinAddr: 0x1C67, symSize: 0x70 }
+  - { offsetInCU: 0x24A, offset: 0x588FA, size: 0x8, addend: 0x0, symName: '-[GIDAuthentication authState]', symObjAddr: 0x181, symBinAddr: 0x1CD7, symSize: 0xA }
+  - { offsetInCU: 0x27F, offset: 0x5892F, size: 0x8, addend: 0x0, symName: '-[GIDAuthentication setAuthState:]', symObjAddr: 0x18B, symBinAddr: 0x1CE1, symSize: 0x11 }
+  - { offsetInCU: 0x2BE, offset: 0x5896E, size: 0x8, addend: 0x0, symName: '-[GIDAuthentication .cxx_destruct]', symObjAddr: 0x19C, symBinAddr: 0x1CF2, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0x58A31, size: 0x8, addend: 0x0, symName: '+[GIDAuthStateMigration migrateIfNeededWithTokenURL:callbackPath:keychainName:isFreshInstall:]', symObjAddr: 0x0, symBinAddr: 0x1D02, symSize: 0x127 }
+  - { offsetInCU: 0x6A, offset: 0x58A74, size: 0x8, addend: 0x0, symName: '+[GIDAuthStateMigration migrateIfNeededWithTokenURL:callbackPath:keychainName:isFreshInstall:]', symObjAddr: 0x0, symBinAddr: 0x1D02, symSize: 0x127 }
+  - { offsetInCU: 0x212, offset: 0x58C1C, size: 0x8, addend: 0x0, symName: '+[GIDAuthStateMigration extractAuthorizationWithTokenURL:callbackPath:]', symObjAddr: 0x127, symBinAddr: 0x1E29, symSize: 0x3F0 }
+  - { offsetInCU: 0x5FE, offset: 0x59008, size: 0x8, addend: 0x0, symName: '+[GIDAuthStateMigration passwordForService:]', symObjAddr: 0x517, symBinAddr: 0x2219, symSize: 0x1ED }
+  - { offsetInCU: 0x27, offset: 0x59206, size: 0x8, addend: 0x0, symName: '-[GIDCallbackQueue init]', symObjAddr: 0x0, symBinAddr: 0x2406, symSize: 0x5E }
+  - { offsetInCU: 0x9A, offset: 0x59279, size: 0x8, addend: 0x0, symName: '-[GIDCallbackQueue init]', symObjAddr: 0x0, symBinAddr: 0x2406, symSize: 0x5E }
+  - { offsetInCU: 0xE9, offset: 0x592C8, size: 0x8, addend: 0x0, symName: '-[GIDCallbackQueue wait]', symObjAddr: 0x5E, symBinAddr: 0x2464, symSize: 0x14 }
+  - { offsetInCU: 0x11C, offset: 0x592FB, size: 0x8, addend: 0x0, symName: '-[GIDCallbackQueue next]', symObjAddr: 0x72, symBinAddr: 0x2478, symSize: 0x4B }
+  - { offsetInCU: 0x18A, offset: 0x59369, size: 0x8, addend: 0x0, symName: '-[GIDCallbackQueue reset]', symObjAddr: 0xBD, symBinAddr: 0x24C3, symSize: 0x39 }
+  - { offsetInCU: 0x1D5, offset: 0x593B4, size: 0x8, addend: 0x0, symName: '-[GIDCallbackQueue addCallback:]', symObjAddr: 0xF6, symBinAddr: 0x24FC, symSize: 0x84 }
+  - { offsetInCU: 0x291, offset: 0x59470, size: 0x8, addend: 0x0, symName: '-[GIDCallbackQueue fire]', symObjAddr: 0x17A, symBinAddr: 0x2580, symSize: 0x95 }
+  - { offsetInCU: 0x331, offset: 0x59510, size: 0x8, addend: 0x0, symName: '-[GIDCallbackQueue .cxx_destruct]', symObjAddr: 0x20F, symBinAddr: 0x2615, symSize: 0x28 }
+  - { offsetInCU: 0x27, offset: 0x5961F, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration initWithClientID:]', symObjAddr: 0x0, symBinAddr: 0x263D, symSize: 0x1A }
+  - { offsetInCU: 0xBA, offset: 0x596B2, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration initWithClientID:]', symObjAddr: 0x0, symBinAddr: 0x263D, symSize: 0x1A }
+  - { offsetInCU: 0x12B, offset: 0x59723, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration initWithClientID:serverClientID:]', symObjAddr: 0x1A, symBinAddr: 0x2657, symSize: 0x18 }
+  - { offsetInCU: 0x1AC, offset: 0x597A4, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration initWithClientID:serverClientID:hostedDomain:openIDRealm:]', symObjAddr: 0x32, symBinAddr: 0x266F, symSize: 0x111 }
+  - { offsetInCU: 0x36C, offset: 0x59964, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration description]', symObjAddr: 0x143, symBinAddr: 0x2780, symSize: 0x96 }
+  - { offsetInCU: 0x40C, offset: 0x59A04, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration copyWithZone:]', symObjAddr: 0x1D9, symBinAddr: 0x2816, symSize: 0xB }
+  - { offsetInCU: 0x462, offset: 0x59A5A, size: 0x8, addend: 0x0, symName: '+[GIDConfiguration supportsSecureCoding]', symObjAddr: 0x1E4, symBinAddr: 0x2821, symSize: 0x8 }
+  - { offsetInCU: 0x495, offset: 0x59A8D, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration initWithCoder:]', symObjAddr: 0x1EC, symBinAddr: 0x2829, symSize: 0x16A }
+  - { offsetInCU: 0x65D, offset: 0x59C55, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration encodeWithCoder:]', symObjAddr: 0x356, symBinAddr: 0x2993, symSize: 0x95 }
+  - { offsetInCU: 0x735, offset: 0x59D2D, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration clientID]', symObjAddr: 0x3EB, symBinAddr: 0x2A28, symSize: 0xA }
+  - { offsetInCU: 0x76A, offset: 0x59D62, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration serverClientID]', symObjAddr: 0x3F5, symBinAddr: 0x2A32, symSize: 0xA }
+  - { offsetInCU: 0x79F, offset: 0x59D97, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration hostedDomain]', symObjAddr: 0x3FF, symBinAddr: 0x2A3C, symSize: 0xA }
+  - { offsetInCU: 0x7D4, offset: 0x59DCC, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration openIDRealm]', symObjAddr: 0x409, symBinAddr: 0x2A46, symSize: 0xA }
+  - { offsetInCU: 0x809, offset: 0x59E01, size: 0x8, addend: 0x0, symName: '-[GIDConfiguration .cxx_destruct]', symObjAddr: 0x413, symBinAddr: 0x2A50, symSize: 0x3E }
+  - { offsetInCU: 0x27, offset: 0x59EB6, size: 0x8, addend: 0x0, symName: '+[GIDEMMErrorHandler sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x2A90, symSize: 0x63 }
+  - { offsetInCU: 0x3A, offset: 0x59EC9, size: 0x8, addend: 0x0, symName: '+[GIDEMMErrorHandler sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x2A90, symSize: 0x63 }
+  - { offsetInCU: 0x64, offset: 0x59EF3, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x98D8, symBinAddr: 0x1AA00, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0x59F09, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x98E0, symBinAddr: 0x1AA08, symSize: 0x0 }
+  - { offsetInCU: 0x1E4, offset: 0x5A073, size: 0x8, addend: 0x0, symName: '___36+[GIDEMMErrorHandler sharedInstance]_block_invoke', symObjAddr: 0x63, symBinAddr: 0x2AF3, symSize: 0x32 }
+  - { offsetInCU: 0x23B, offset: 0x5A0CA, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler handleErrorFromResponse:completion:]', symObjAddr: 0x95, symBinAddr: 0x2B25, symSize: 0x35E }
+  - { offsetInCU: 0x556, offset: 0x5A3E5, size: 0x8, addend: 0x0, symName: '___57-[GIDEMMErrorHandler handleErrorFromResponse:completion:]_block_invoke', symObjAddr: 0x3F3, symBinAddr: 0x2E83, symSize: 0x415 }
+  - { offsetInCU: 0x8E9, offset: 0x5A778, size: 0x8, addend: 0x0, symName: '___57-[GIDEMMErrorHandler handleErrorFromResponse:completion:]_block_invoke_2', symObjAddr: 0x808, symBinAddr: 0x3298, symSize: 0x55 }
+  - { offsetInCU: 0x996, offset: 0x5A825, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x85D, symBinAddr: 0x32ED, symSize: 0x4B }
+  - { offsetInCU: 0x9E3, offset: 0x5A872, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x8A8, symBinAddr: 0x3338, symSize: 0x33 }
+  - { offsetInCU: 0xA32, offset: 0x5A8C1, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x8DB, symBinAddr: 0x336B, symSize: 0x44 }
+  - { offsetInCU: 0xA73, offset: 0x5A902, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler keyWindow]', symObjAddr: 0x94B, symBinAddr: 0x33BB, symSize: 0x3A5 }
+  - { offsetInCU: 0xC2D, offset: 0x5AABC, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler deviceNotCompliantAlertWithCompletion:]', symObjAddr: 0xCF0, symBinAddr: 0x3760, symSize: 0x155 }
+  - { offsetInCU: 0xD6D, offset: 0x5ABFC, size: 0x8, addend: 0x0, symName: '___60-[GIDEMMErrorHandler deviceNotCompliantAlertWithCompletion:]_block_invoke', symObjAddr: 0xE45, symBinAddr: 0x38B5, symSize: 0xC }
+  - { offsetInCU: 0xDC0, offset: 0x5AC4F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0xE68, symBinAddr: 0x38C8, symSize: 0xF }
+  - { offsetInCU: 0xDEB, offset: 0x5AC7A, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler passcodeRequiredAlertWithCompletion:]', symObjAddr: 0xE77, symBinAddr: 0x38D7, symSize: 0x3D4 }
+  - { offsetInCU: 0x10F2, offset: 0x5AF81, size: 0x8, addend: 0x0, symName: '___58-[GIDEMMErrorHandler passcodeRequiredAlertWithCompletion:]_block_invoke', symObjAddr: 0x124B, symBinAddr: 0x3CAB, symSize: 0xC }
+  - { offsetInCU: 0x1145, offset: 0x5AFD4, size: 0x8, addend: 0x0, symName: '___58-[GIDEMMErrorHandler passcodeRequiredAlertWithCompletion:]_block_invoke_2', symObjAddr: 0x1257, symBinAddr: 0x3CB7, symSize: 0x68 }
+  - { offsetInCU: 0x11E0, offset: 0x5B06F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x12BF, symBinAddr: 0x3D1F, symSize: 0x30 }
+  - { offsetInCU: 0x1215, offset: 0x5B0A4, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x12EF, symBinAddr: 0x3D4F, symSize: 0x25 }
+  - { offsetInCU: 0x124C, offset: 0x5B0DB, size: 0x8, addend: 0x0, symName: '___58-[GIDEMMErrorHandler passcodeRequiredAlertWithCompletion:]_block_invoke.127', symObjAddr: 0x1314, symBinAddr: 0x3D74, symSize: 0xC }
+  - { offsetInCU: 0x129F, offset: 0x5B12E, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler appVerificationRequiredAlertWithURL:completion:]', symObjAddr: 0x1320, symBinAddr: 0x3D80, symSize: 0x3A0 }
+  - { offsetInCU: 0x1560, offset: 0x5B3EF, size: 0x8, addend: 0x0, symName: '___69-[GIDEMMErrorHandler appVerificationRequiredAlertWithURL:completion:]_block_invoke', symObjAddr: 0x16C0, symBinAddr: 0x4120, symSize: 0xC }
+  - { offsetInCU: 0x15B3, offset: 0x5B442, size: 0x8, addend: 0x0, symName: '___69-[GIDEMMErrorHandler appVerificationRequiredAlertWithURL:completion:]_block_invoke_2', symObjAddr: 0x16CC, symBinAddr: 0x412C, symSize: 0x2B }
+  - { offsetInCU: 0x1636, offset: 0x5B4C5, size: 0x8, addend: 0x0, symName: '___69-[GIDEMMErrorHandler appVerificationRequiredAlertWithURL:completion:]_block_invoke.134', symObjAddr: 0x16F7, symBinAddr: 0x4157, symSize: 0xC }
+  - { offsetInCU: 0x168C, offset: 0x5B51B, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler openURL:]', symObjAddr: 0x1703, symBinAddr: 0x4163, symSize: 0x7A }
+  - { offsetInCU: 0x1737, offset: 0x5B5C6, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler unableToAccessString]', symObjAddr: 0x177D, symBinAddr: 0x41DD, symSize: 0x27 }
+  - { offsetInCU: 0x1777, offset: 0x5B606, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler passcodeRequiredString]', symObjAddr: 0x17A4, symBinAddr: 0x4204, symSize: 0x27 }
+  - { offsetInCU: 0x17C8, offset: 0x5B657, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler appVerificationTitleString]', symObjAddr: 0x17CB, symBinAddr: 0x422B, symSize: 0x27 }
+  - { offsetInCU: 0x1808, offset: 0x5B697, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler appVerificationTextString]', symObjAddr: 0x17F2, symBinAddr: 0x4252, symSize: 0x27 }
+  - { offsetInCU: 0x1859, offset: 0x5B6E8, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler appVerificationActionString]', symObjAddr: 0x1819, symBinAddr: 0x4279, symSize: 0x27 }
+  - { offsetInCU: 0x1899, offset: 0x5B728, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler deviceNotCompliantString]', symObjAddr: 0x1840, symBinAddr: 0x42A0, symSize: 0x27 }
+  - { offsetInCU: 0x18EA, offset: 0x5B779, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler settingsString]', symObjAddr: 0x1867, symBinAddr: 0x42C7, symSize: 0x27 }
+  - { offsetInCU: 0x192A, offset: 0x5B7B9, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler okayString]', symObjAddr: 0x188E, symBinAddr: 0x42EE, symSize: 0x23 }
+  - { offsetInCU: 0x196A, offset: 0x5B7F9, size: 0x8, addend: 0x0, symName: '-[GIDEMMErrorHandler cancelString]', symObjAddr: 0x18B1, symBinAddr: 0x4311, symSize: 0x2F }
+  - { offsetInCU: 0x27, offset: 0x5BD80, size: 0x8, addend: 0x0, symName: '+[GIDEMMSupport handleTokenFetchEMMError:completion:]', symObjAddr: 0x0, symBinAddr: 0x4340, symSize: 0x1B0 }
+  - { offsetInCU: 0x5E, offset: 0x5BDB7, size: 0x8, addend: 0x0, symName: '+[GIDEMMSupport handleTokenFetchEMMError:completion:]', symObjAddr: 0x0, symBinAddr: 0x4340, symSize: 0x1B0 }
+  - { offsetInCU: 0x20D, offset: 0x5BF66, size: 0x8, addend: 0x0, symName: '___53+[GIDEMMSupport handleTokenFetchEMMError:completion:]_block_invoke', symObjAddr: 0x1B0, symBinAddr: 0x44F0, symSize: 0xC0 }
+  - { offsetInCU: 0x2D0, offset: 0x5C029, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48r, symObjAddr: 0x270, symBinAddr: 0x45B0, symSize: 0x42 }
+  - { offsetInCU: 0x305, offset: 0x5C05E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0x2B2, symBinAddr: 0x45F2, symSize: 0x33 }
+  - { offsetInCU: 0x33C, offset: 0x5C095, size: 0x8, addend: 0x0, symName: '+[GIDEMMSupport updatedEMMParametersWithParameters:]', symObjAddr: 0x2E5, symBinAddr: 0x4625, symSize: 0xB8 }
+  - { offsetInCU: 0x3F8, offset: 0x5C151, size: 0x8, addend: 0x0, symName: '+[GIDEMMSupport parametersWithParameters:emmSupport:isPasscodeInfoRequired:]', symObjAddr: 0x39D, symBinAddr: 0x46DD, symSize: 0x207 }
+  - { offsetInCU: 0x27, offset: 0x5C572, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser userID]', symObjAddr: 0x0, symBinAddr: 0x48E4, symSize: 0x10B }
+  - { offsetInCU: 0x291, offset: 0x5C7DC, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser userID]', symObjAddr: 0x0, symBinAddr: 0x48E4, symSize: 0x10B }
+  - { offsetInCU: 0x3B3, offset: 0x5C8FE, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser grantedScopes]', symObjAddr: 0x10B, symBinAddr: 0x49EF, symSize: 0x13E }
+  - { offsetInCU: 0x531, offset: 0x5CA7C, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser configuration]', symObjAddr: 0x249, symBinAddr: 0x4B2D, symSize: 0x2C4 }
+  - { offsetInCU: 0x7E5, offset: 0x5CD30, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser refreshTokensIfNeededWithCompletion:]', symObjAddr: 0x50D, symBinAddr: 0x4DF1, symSize: 0x48F }
+  - { offsetInCU: 0xC5D, offset: 0x5D1A8, size: 0x8, addend: 0x0, symName: '___53-[GIDGoogleUser refreshTokensIfNeededWithCompletion:]_block_invoke', symObjAddr: 0x99C, symBinAddr: 0x5280, symSize: 0x15 }
+  - { offsetInCU: 0xCBF, offset: 0x5D20A, size: 0x8, addend: 0x0, symName: '___53-[GIDGoogleUser refreshTokensIfNeededWithCompletion:]_block_invoke.76', symObjAddr: 0xA06, symBinAddr: 0x5295, symSize: 0x146 }
+  - { offsetInCU: 0xDFD, offset: 0x5D348, size: 0x8, addend: 0x0, symName: '___53-[GIDGoogleUser refreshTokensIfNeededWithCompletion:]_block_invoke_2', symObjAddr: 0xB4C, symBinAddr: 0x53DB, symSize: 0x231 }
+  - { offsetInCU: 0xF7F, offset: 0x5D4CA, size: 0x8, addend: 0x0, symName: '___53-[GIDGoogleUser refreshTokensIfNeededWithCompletion:]_block_invoke_3', symObjAddr: 0xD7D, symBinAddr: 0x560C, symSize: 0x23 }
+  - { offsetInCU: 0xFEA, offset: 0x5D535, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0xE10, symBinAddr: 0x562F, symSize: 0xF }
+  - { offsetInCU: 0x101D, offset: 0x5D568, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser authState]', symObjAddr: 0xE2E, symBinAddr: 0x563E, symSize: 0x50 }
+  - { offsetInCU: 0x1080, offset: 0x5D5CB, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser addScopes:presentingViewController:completion:]', symObjAddr: 0xE7E, symBinAddr: 0x568E, symSize: 0x1BB }
+  - { offsetInCU: 0x1261, offset: 0x5D7AC, size: 0x8, addend: 0x0, symName: '___63-[GIDGoogleUser addScopes:presentingViewController:completion:]_block_invoke', symObjAddr: 0x1039, symBinAddr: 0x5849, symSize: 0x15 }
+  - { offsetInCU: 0x12BF, offset: 0x5D80A, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser emmSupport]', symObjAddr: 0x104E, symBinAddr: 0x585E, symSize: 0xC4 }
+  - { offsetInCU: 0x1384, offset: 0x5D8CF, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser initWithAuthState:profileData:]', symObjAddr: 0x1112, symBinAddr: 0x5922, symSize: 0x179 }
+  - { offsetInCU: 0x1536, offset: 0x5DA81, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser updateWithTokenResponse:authorizationResponse:profileData:]', symObjAddr: 0x128B, symBinAddr: 0x5A9B, symSize: 0x177 }
+  - { offsetInCU: 0x1729, offset: 0x5DC74, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser updateTokensWithAuthState:]', symObjAddr: 0x1402, symBinAddr: 0x5C12, symSize: 0x33E }
+  - { offsetInCU: 0x1AC1, offset: 0x5E00C, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser hostedDomain]', symObjAddr: 0x1740, symBinAddr: 0x5F50, symSize: 0x14C }
+  - { offsetInCU: 0x1C06, offset: 0x5E151, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser additionalRefreshParameters:]', symObjAddr: 0x188C, symBinAddr: 0x609C, symSize: 0xCA }
+  - { offsetInCU: 0x1CD9, offset: 0x5E224, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser didChangeState:]', symObjAddr: 0x1956, symBinAddr: 0x6166, symSize: 0x12 }
+  - { offsetInCU: 0x1D37, offset: 0x5E282, size: 0x8, addend: 0x0, symName: '+[GIDGoogleUser supportsSecureCoding]', symObjAddr: 0x1968, symBinAddr: 0x6178, symSize: 0x8 }
+  - { offsetInCU: 0x1D6B, offset: 0x5E2B6, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser initWithCoder:]', symObjAddr: 0x1970, symBinAddr: 0x6180, symSize: 0x16C }
+  - { offsetInCU: 0x1F04, offset: 0x5E44F, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser encodeWithCoder:]', symObjAddr: 0x1ADC, symBinAddr: 0x62EC, symSize: 0x90 }
+  - { offsetInCU: 0x1FC8, offset: 0x5E513, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser profile]', symObjAddr: 0x1B6C, symBinAddr: 0x637C, symSize: 0xA }
+  - { offsetInCU: 0x1FFD, offset: 0x5E548, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser accessToken]', symObjAddr: 0x1B76, symBinAddr: 0x6386, symSize: 0xA }
+  - { offsetInCU: 0x2032, offset: 0x5E57D, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser setAccessToken:]', symObjAddr: 0x1B80, symBinAddr: 0x6390, symSize: 0x11 }
+  - { offsetInCU: 0x2071, offset: 0x5E5BC, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser refreshToken]', symObjAddr: 0x1B91, symBinAddr: 0x63A1, symSize: 0xA }
+  - { offsetInCU: 0x20A6, offset: 0x5E5F1, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser setRefreshToken:]', symObjAddr: 0x1B9B, symBinAddr: 0x63AB, symSize: 0x11 }
+  - { offsetInCU: 0x20E5, offset: 0x5E630, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser idToken]', symObjAddr: 0x1BAC, symBinAddr: 0x63BC, symSize: 0xA }
+  - { offsetInCU: 0x211A, offset: 0x5E665, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser setIdToken:]', symObjAddr: 0x1BB6, symBinAddr: 0x63C6, symSize: 0x11 }
+  - { offsetInCU: 0x2159, offset: 0x5E6A4, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser fetcherAuthorizer]', symObjAddr: 0x1BC7, symBinAddr: 0x63D7, symSize: 0xA }
+  - { offsetInCU: 0x218E, offset: 0x5E6D9, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser setFetcherAuthorizer:]', symObjAddr: 0x1BD1, symBinAddr: 0x63E1, symSize: 0x11 }
+  - { offsetInCU: 0x21CD, offset: 0x5E718, size: 0x8, addend: 0x0, symName: '-[GIDGoogleUser .cxx_destruct]', symObjAddr: 0x1BE2, symBinAddr: 0x63F2, symSize: 0x5F }
+  - { offsetInCU: 0x27, offset: 0x5EB2B, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeCache init]', symObjAddr: 0x0, symBinAddr: 0x6451, symSize: 0xB4 }
+  - { offsetInCU: 0x3A, offset: 0x5EB3E, size: 0x8, addend: 0x0, symName: '+[GIDMDMPasscodeCache sharedInstance]', symObjAddr: 0x129, symBinAddr: 0x657A, symSize: 0x30 }
+  - { offsetInCU: 0x64, offset: 0x5EB68, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x6058, symBinAddr: 0x1AA10, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0x5EB7E, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x6060, symBinAddr: 0x1AA18, symSize: 0x0 }
+  - { offsetInCU: 0x16F, offset: 0x5EC73, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeCache passcodeState]', symObjAddr: 0x18E, symBinAddr: 0x65DF, symSize: 0x21A }
+  - { offsetInCU: 0x199, offset: 0x5EC9D, size: 0x8, addend: 0x0, symName: _passcodeState.workQueue, symObjAddr: 0x6068, symBinAddr: 0x1AA20, symSize: 0x0 }
+  - { offsetInCU: 0x1AF, offset: 0x5ECB3, size: 0x8, addend: 0x0, symName: _passcodeState.semaphore, symObjAddr: 0x6070, symBinAddr: 0x1AA28, symSize: 0x0 }
+  - { offsetInCU: 0x392, offset: 0x5EE96, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeCache obtainLocalAuthenticationInfo]', symObjAddr: 0x490, symBinAddr: 0x68C3, symSize: 0x25A }
+  - { offsetInCU: 0x3B8, offset: 0x5EEBC, size: 0x8, addend: 0x0, symName: _obtainLocalAuthenticationInfo.context, symObjAddr: 0x6078, symBinAddr: 0x1AA30, symSize: 0x0 }
+  - { offsetInCU: 0x52E, offset: 0x5F032, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeCache obtainKeychainInfo]', symObjAddr: 0x6EA, symBinAddr: 0x6B1D, symSize: 0x2B7 }
+  - { offsetInCU: 0x554, offset: 0x5F058, size: 0x8, addend: 0x0, symName: _obtainKeychainInfo.attributes, symObjAddr: 0x6080, symBinAddr: 0x1AA38, symSize: 0x0 }
+  - { offsetInCU: 0x56A, offset: 0x5F06E, size: 0x8, addend: 0x0, symName: _obtainKeychainInfo.query, symObjAddr: 0x6088, symBinAddr: 0x1AA40, symSize: 0x0 }
+  - { offsetInCU: 0x6EE, offset: 0x5F1F2, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeCache init]', symObjAddr: 0x0, symBinAddr: 0x6451, symSize: 0xB4 }
+  - { offsetInCU: 0x78E, offset: 0x5F292, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeCache dealloc]', symObjAddr: 0xB4, symBinAddr: 0x6505, symSize: 0x75 }
+  - { offsetInCU: 0x843, offset: 0x5F347, size: 0x8, addend: 0x0, symName: '___37+[GIDMDMPasscodeCache sharedInstance]_block_invoke', symObjAddr: 0x159, symBinAddr: 0x65AA, symSize: 0x35 }
+  - { offsetInCU: 0x8FE, offset: 0x5F402, size: 0x8, addend: 0x0, symName: '___36-[GIDMDMPasscodeCache passcodeState]_block_invoke', symObjAddr: 0x3A8, symBinAddr: 0x67F9, symSize: 0x22 }
+  - { offsetInCU: 0x969, offset: 0x5F46D, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeCache hasLocalAuthentication]', symObjAddr: 0x3E8, symBinAddr: 0x681B, symSize: 0x96 }
+  - { offsetInCU: 0x9F7, offset: 0x5F4FB, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeCache hasKeychain]', symObjAddr: 0x47E, symBinAddr: 0x68B1, symSize: 0x8 }
+  - { offsetInCU: 0xA2A, offset: 0x5F52E, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeCache applicationDidEnterBackground:]', symObjAddr: 0x486, symBinAddr: 0x68B9, symSize: 0xA }
+  - { offsetInCU: 0xA97, offset: 0x5F59B, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeCache status]', symObjAddr: 0x9A1, symBinAddr: 0x6DD4, symSize: 0xF4 }
+  - { offsetInCU: 0xB33, offset: 0x5F637, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeCache info]', symObjAddr: 0xA95, symBinAddr: 0x6EC8, symSize: 0x153 }
+  - { offsetInCU: 0xC5C, offset: 0x5F760, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeCache .cxx_destruct]', symObjAddr: 0xBE8, symBinAddr: 0x701B, symSize: 0x3E }
+  - { offsetInCU: 0x27, offset: 0x5F91C, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeState initWithStatus:info:]', symObjAddr: 0x0, symBinAddr: 0x7059, symSize: 0xB9 }
+  - { offsetInCU: 0x8D, offset: 0x5F982, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeState initWithStatus:info:]', symObjAddr: 0x0, symBinAddr: 0x7059, symSize: 0xB9 }
+  - { offsetInCU: 0x175, offset: 0x5FA6A, size: 0x8, addend: 0x0, symName: '+[GIDMDMPasscodeState passcodeState]', symObjAddr: 0xB9, symBinAddr: 0x7112, symSize: 0x57 }
+  - { offsetInCU: 0x1E0, offset: 0x5FAD5, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeState status]', symObjAddr: 0x110, symBinAddr: 0x7169, symSize: 0xA }
+  - { offsetInCU: 0x215, offset: 0x5FB0A, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeState info]', symObjAddr: 0x11A, symBinAddr: 0x7173, symSize: 0xA }
+  - { offsetInCU: 0x24A, offset: 0x5FB3F, size: 0x8, addend: 0x0, symName: '-[GIDMDMPasscodeState .cxx_destruct]', symObjAddr: 0x124, symBinAddr: 0x717D, symSize: 0x28 }
+  - { offsetInCU: 0x27, offset: 0x5FBF6, size: 0x8, addend: 0x0, symName: '-[GIDProfileData initWithEmail:name:givenName:familyName:imageURL:]', symObjAddr: 0x0, symBinAddr: 0x71A5, symSize: 0x134 }
+  - { offsetInCU: 0x3F, offset: 0x5FC0E, size: 0x8, addend: 0x0, symName: '-[GIDProfileData isFIFEAvatarURL:]', symObjAddr: 0x47C, symBinAddr: 0x7621, symSize: 0x11F }
+  - { offsetInCU: 0x23E, offset: 0x5FE0D, size: 0x8, addend: 0x0, symName: '-[GIDProfileData initWithEmail:name:givenName:familyName:imageURL:]', symObjAddr: 0x0, symBinAddr: 0x71A5, symSize: 0x134 }
+  - { offsetInCU: 0x45A, offset: 0x60029, size: 0x8, addend: 0x0, symName: '-[GIDProfileData hasImage]', symObjAddr: 0x134, symBinAddr: 0x72D9, symSize: 0xE }
+  - { offsetInCU: 0x48F, offset: 0x6005E, size: 0x8, addend: 0x0, symName: '-[GIDProfileData imageURLWithDimension:]', symObjAddr: 0x142, symBinAddr: 0x72E7, symSize: 0x33A }
+  - { offsetInCU: 0x730, offset: 0x602FF, size: 0x8, addend: 0x0, symName: '+[GIDProfileData supportsSecureCoding]', symObjAddr: 0x59B, symBinAddr: 0x7740, symSize: 0x8 }
+  - { offsetInCU: 0x763, offset: 0x60332, size: 0x8, addend: 0x0, symName: '-[GIDProfileData initWithCoder:]', symObjAddr: 0x5A3, symBinAddr: 0x7748, symSize: 0x221 }
+  - { offsetInCU: 0x8FF, offset: 0x604CE, size: 0x8, addend: 0x0, symName: '-[GIDProfileData encodeWithCoder:]', symObjAddr: 0x7C4, symBinAddr: 0x7969, symSize: 0xA9 }
+  - { offsetInCU: 0x9F2, offset: 0x605C1, size: 0x8, addend: 0x0, symName: '-[GIDProfileData copyWithZone:]', symObjAddr: 0x86D, symBinAddr: 0x7A12, symSize: 0xB }
+  - { offsetInCU: 0xA48, offset: 0x60617, size: 0x8, addend: 0x0, symName: '-[GIDProfileData email]', symObjAddr: 0x878, symBinAddr: 0x7A1D, symSize: 0xA }
+  - { offsetInCU: 0xA7D, offset: 0x6064C, size: 0x8, addend: 0x0, symName: '-[GIDProfileData name]', symObjAddr: 0x882, symBinAddr: 0x7A27, symSize: 0xA }
+  - { offsetInCU: 0xAB2, offset: 0x60681, size: 0x8, addend: 0x0, symName: '-[GIDProfileData givenName]', symObjAddr: 0x88C, symBinAddr: 0x7A31, symSize: 0xA }
+  - { offsetInCU: 0xAE7, offset: 0x606B6, size: 0x8, addend: 0x0, symName: '-[GIDProfileData familyName]', symObjAddr: 0x896, symBinAddr: 0x7A3B, symSize: 0xA }
+  - { offsetInCU: 0xB1C, offset: 0x606EB, size: 0x8, addend: 0x0, symName: '-[GIDProfileData .cxx_destruct]', symObjAddr: 0x8A0, symBinAddr: 0x7A45, symSize: 0x49 }
+  - { offsetInCU: 0x27, offset: 0x607C7, size: 0x8, addend: 0x0, symName: '+[GIDScopes scopesWithBasicProfile:]', symObjAddr: 0x0, symBinAddr: 0x7A8E, symSize: 0x5E }
+  - { offsetInCU: 0x46, offset: 0x607E6, size: 0x8, addend: 0x0, symName: '+[GIDScopes scopesWithBasicProfile:]', symObjAddr: 0x0, symBinAddr: 0x7A8E, symSize: 0x5E }
+  - { offsetInCU: 0xB9, offset: 0x60859, size: 0x8, addend: 0x0, symName: _addScopeTo, symObjAddr: 0x5E, symBinAddr: 0x7AEC, symSize: 0x1B6 }
+  - { offsetInCU: 0x2AF, offset: 0x60A4F, size: 0x8, addend: 0x0, symName: _hasEmail, symObjAddr: 0x214, symBinAddr: 0x7CA2, symSize: 0x61 }
+  - { offsetInCU: 0x332, offset: 0x60AD2, size: 0x8, addend: 0x0, symName: _hasProfile, symObjAddr: 0x275, symBinAddr: 0x7D03, symSize: 0x61 }
+  - { offsetInCU: 0x27, offset: 0x60BAC, size: 0x8, addend: 0x0, symName: '-[GIDAuthFlow authState]', symObjAddr: 0x0, symBinAddr: 0x7D64, symSize: 0x11 }
+  - { offsetInCU: 0x46, offset: 0x60BCB, size: 0x8, addend: 0x0, symName: _kGIDSignInErrorDomain, symObjAddr: 0x4C78, symBinAddr: 0x14690, symSize: 0x0 }
+  - { offsetInCU: 0x55, offset: 0x60BDA, size: 0x8, addend: 0x0, symName: '+[GIDSignIn sharedInstance]', symObjAddr: 0xDEC, symBinAddr: 0x8AD5, symSize: 0x63 }
+  - { offsetInCU: 0x81, offset: 0x60C06, size: 0x8, addend: 0x0, symName: _sharedInstance.once, symObjAddr: 0x16FD8, symBinAddr: 0x1AA48, symSize: 0x0 }
+  - { offsetInCU: 0x98, offset: 0x60C1D, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x16FE0, symBinAddr: 0x1AA50, symSize: 0x0 }
+  - { offsetInCU: 0x5DC, offset: 0x61161, size: 0x8, addend: 0x0, symName: '-[GIDAuthFlow authState]', symObjAddr: 0x0, symBinAddr: 0x7D64, symSize: 0x11 }
+  - { offsetInCU: 0x611, offset: 0x61196, size: 0x8, addend: 0x0, symName: '-[GIDAuthFlow setAuthState:]', symObjAddr: 0x11, symBinAddr: 0x7D75, symSize: 0x14 }
+  - { offsetInCU: 0x650, offset: 0x611D5, size: 0x8, addend: 0x0, symName: '-[GIDAuthFlow error]', symObjAddr: 0x25, symBinAddr: 0x7D89, symSize: 0x11 }
+  - { offsetInCU: 0x685, offset: 0x6120A, size: 0x8, addend: 0x0, symName: '-[GIDAuthFlow setError:]', symObjAddr: 0x36, symBinAddr: 0x7D9A, symSize: 0x14 }
+  - { offsetInCU: 0x6C4, offset: 0x61249, size: 0x8, addend: 0x0, symName: '-[GIDAuthFlow emmSupport]', symObjAddr: 0x4A, symBinAddr: 0x7DAE, symSize: 0x11 }
+  - { offsetInCU: 0x6F9, offset: 0x6127E, size: 0x8, addend: 0x0, symName: '-[GIDAuthFlow setEmmSupport:]', symObjAddr: 0x5B, symBinAddr: 0x7DBF, symSize: 0x11 }
+  - { offsetInCU: 0x738, offset: 0x612BD, size: 0x8, addend: 0x0, symName: '-[GIDAuthFlow profileData]', symObjAddr: 0x6C, symBinAddr: 0x7DD0, symSize: 0x11 }
+  - { offsetInCU: 0x76D, offset: 0x612F2, size: 0x8, addend: 0x0, symName: '-[GIDAuthFlow setProfileData:]', symObjAddr: 0x7D, symBinAddr: 0x7DE1, symSize: 0x14 }
+  - { offsetInCU: 0x7AC, offset: 0x61331, size: 0x8, addend: 0x0, symName: '-[GIDAuthFlow .cxx_destruct]', symObjAddr: 0x91, symBinAddr: 0x7DF5, symSize: 0x53 }
+  - { offsetInCU: 0x7DF, offset: 0x61364, size: 0x8, addend: 0x0, symName: '-[GIDSignIn handleURL:]', symObjAddr: 0xE4, symBinAddr: 0x7E48, symSize: 0x106 }
+  - { offsetInCU: 0x8E2, offset: 0x61467, size: 0x8, addend: 0x0, symName: '-[GIDSignIn hasPreviousSignIn]', symObjAddr: 0x1EA, symBinAddr: 0x7F4E, symSize: 0x95 }
+  - { offsetInCU: 0x98D, offset: 0x61512, size: 0x8, addend: 0x0, symName: '-[GIDSignIn restorePreviousSignInWithCompletion:]', symObjAddr: 0x27F, symBinAddr: 0x7FE3, symSize: 0xBD }
+  - { offsetInCU: 0xA45, offset: 0x615CA, size: 0x8, addend: 0x0, symName: '___49-[GIDSignIn restorePreviousSignInWithCompletion:]_block_invoke', symObjAddr: 0x33C, symBinAddr: 0x80A0, symSize: 0x55 }
+  - { offsetInCU: 0xAF4, offset: 0x61679, size: 0x8, addend: 0x0, symName: '-[GIDSignIn restorePreviousSignInNoRefresh]', symObjAddr: 0x3B7, symBinAddr: 0x80F5, symSize: 0x145 }
+  - { offsetInCU: 0xC4C, offset: 0x617D1, size: 0x8, addend: 0x0, symName: '-[GIDSignIn signInWithPresentingViewController:hint:completion:]', symObjAddr: 0x4FC, symBinAddr: 0x823A, symSize: 0x67 }
+  - { offsetInCU: 0xCEF, offset: 0x61874, size: 0x8, addend: 0x0, symName: '-[GIDSignIn signInWithPresentingViewController:hint:additionalScopes:completion:]', symObjAddr: 0x563, symBinAddr: 0x82A1, symSize: 0x6D }
+  - { offsetInCU: 0xDA2, offset: 0x61927, size: 0x8, addend: 0x0, symName: '-[GIDSignIn signInWithPresentingViewController:completion:]', symObjAddr: 0x5D0, symBinAddr: 0x830E, symSize: 0x17 }
+  - { offsetInCU: 0xE1F, offset: 0x619A4, size: 0x8, addend: 0x0, symName: '-[GIDSignIn addScopes:presentingViewController:completion:]', symObjAddr: 0x5E7, symBinAddr: 0x8325, symSize: 0x343 }
+  - { offsetInCU: 0x11AC, offset: 0x61D31, size: 0x8, addend: 0x0, symName: '___59-[GIDSignIn addScopes:presentingViewController:completion:]_block_invoke', symObjAddr: 0x92A, symBinAddr: 0x8668, symSize: 0x15 }
+  - { offsetInCU: 0x120E, offset: 0x61D93, size: 0x8, addend: 0x0, symName: '-[GIDSignIn signOut]', symObjAddr: 0x994, symBinAddr: 0x867D, symSize: 0x38 }
+  - { offsetInCU: 0x1270, offset: 0x61DF5, size: 0x8, addend: 0x0, symName: '-[GIDSignIn disconnectWithCompletion:]', symObjAddr: 0x9CC, symBinAddr: 0x86B5, symSize: 0x31F }
+  - { offsetInCU: 0x150F, offset: 0x62094, size: 0x8, addend: 0x0, symName: '___38-[GIDSignIn disconnectWithCompletion:]_block_invoke', symObjAddr: 0xCEB, symBinAddr: 0x89D4, symSize: 0x11 }
+  - { offsetInCU: 0x1560, offset: 0x620E5, size: 0x8, addend: 0x0, symName: '___38-[GIDSignIn disconnectWithCompletion:]_block_invoke.173', symObjAddr: 0xCFC, symBinAddr: 0x89E5, symSize: 0xDD }
+  - { offsetInCU: 0x1680, offset: 0x62205, size: 0x8, addend: 0x0, symName: '___38-[GIDSignIn disconnectWithCompletion:]_block_invoke_2', symObjAddr: 0xDD9, symBinAddr: 0x8AC2, symSize: 0x13 }
+  - { offsetInCU: 0x1715, offset: 0x6229A, size: 0x8, addend: 0x0, symName: '___27+[GIDSignIn sharedInstance]_block_invoke', symObjAddr: 0xE4F, symBinAddr: 0x8B38, symSize: 0x32 }
+  - { offsetInCU: 0x176F, offset: 0x622F4, size: 0x8, addend: 0x0, symName: '-[GIDSignIn initPrivate]', symObjAddr: 0xE81, symBinAddr: 0x8B6A, symSize: 0x26B }
+  - { offsetInCU: 0x1978, offset: 0x624FD, size: 0x8, addend: 0x0, symName: '-[GIDSignIn signInWithOptions:]', symObjAddr: 0x10EC, symBinAddr: 0x8DD5, symSize: 0x27B }
+  - { offsetInCU: 0x1BAA, offset: 0x6272F, size: 0x8, addend: 0x0, symName: '___31-[GIDSignIn signInWithOptions:]_block_invoke', symObjAddr: 0x1367, symBinAddr: 0x9050, symSize: 0xDC }
+  - { offsetInCU: 0x1C79, offset: 0x627FE, size: 0x8, addend: 0x0, symName: '___31-[GIDSignIn signInWithOptions:]_block_invoke_2', symObjAddr: 0x1443, symBinAddr: 0x912C, symSize: 0x7D }
+  - { offsetInCU: 0x1D4D, offset: 0x628D2, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x14C0, symBinAddr: 0x91A9, symSize: 0x25 }
+  - { offsetInCU: 0x1D8E, offset: 0x62913, size: 0x8, addend: 0x0, symName: '-[GIDSignIn authenticateInteractivelyWithOptions:]', symObjAddr: 0x14E5, symBinAddr: 0x91CE, symSize: 0x581 }
+  - { offsetInCU: 0x22ED, offset: 0x62E72, size: 0x8, addend: 0x0, symName: '___50-[GIDSignIn authenticateInteractivelyWithOptions:]_block_invoke', symObjAddr: 0x1A66, symBinAddr: 0x974F, symSize: 0x23 }
+  - { offsetInCU: 0x237F, offset: 0x62F04, size: 0x8, addend: 0x0, symName: '-[GIDSignIn processAuthorizationResponse:error:emmSupport:]', symObjAddr: 0x1A89, symBinAddr: 0x9772, symSize: 0x3B2 }
+  - { offsetInCU: 0x278E, offset: 0x63313, size: 0x8, addend: 0x0, symName: '___59-[GIDSignIn processAuthorizationResponse:error:emmSupport:]_block_invoke', symObjAddr: 0x1E3B, symBinAddr: 0x9B24, symSize: 0x16 }
+  - { offsetInCU: 0x27D8, offset: 0x6335D, size: 0x8, addend: 0x0, symName: '-[GIDSignIn authenticateWithOptions:]', symObjAddr: 0x1E60, symBinAddr: 0x9B3A, symSize: 0x1E8 }
+  - { offsetInCU: 0x29F9, offset: 0x6357E, size: 0x8, addend: 0x0, symName: '___37-[GIDSignIn authenticateWithOptions:]_block_invoke', symObjAddr: 0x2048, symBinAddr: 0x9D22, symSize: 0x3F }
+  - { offsetInCU: 0x2A7B, offset: 0x63600, size: 0x8, addend: 0x0, symName: '-[GIDSignIn maybeFetchToken:]', symObjAddr: 0x2087, symBinAddr: 0x9D61, symSize: 0x639 }
+  - { offsetInCU: 0x305C, offset: 0x63BE1, size: 0x8, addend: 0x0, symName: '___29-[GIDSignIn maybeFetchToken:]_block_invoke', symObjAddr: 0x26C0, symBinAddr: 0xA39A, symSize: 0x105 }
+  - { offsetInCU: 0x317C, offset: 0x63D01, size: 0x8, addend: 0x0, symName: '___29-[GIDSignIn maybeFetchToken:]_block_invoke_2', symObjAddr: 0x27C5, symBinAddr: 0xA49F, symSize: 0x36 }
+  - { offsetInCU: 0x31EC, offset: 0x63D71, size: 0x8, addend: 0x0, symName: '-[GIDSignIn addSaveAuthCallback:]', symObjAddr: 0x27FB, symBinAddr: 0xA4D5, symSize: 0xC1 }
+  - { offsetInCU: 0x3286, offset: 0x63E0B, size: 0x8, addend: 0x0, symName: '___33-[GIDSignIn addSaveAuthCallback:]_block_invoke', symObjAddr: 0x28BC, symBinAddr: 0xA596, symSize: 0x1FE }
+  - { offsetInCU: 0x3481, offset: 0x64006, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w, symObjAddr: 0x2ABA, symBinAddr: 0xA794, symSize: 0x2E }
+  - { offsetInCU: 0x34B6, offset: 0x6403B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w, symObjAddr: 0x2AE8, symBinAddr: 0xA7C2, symSize: 0x22 }
+  - { offsetInCU: 0x34E1, offset: 0x64066, size: 0x8, addend: 0x0, symName: '-[GIDSignIn addDecodeIdTokenCallback:]', symObjAddr: 0x2B0A, symBinAddr: 0xA7E4, symSize: 0xC1 }
+  - { offsetInCU: 0x357B, offset: 0x64100, size: 0x8, addend: 0x0, symName: '___38-[GIDSignIn addDecodeIdTokenCallback:]_block_invoke', symObjAddr: 0x2BCB, symBinAddr: 0xA8A5, symSize: 0x2FC }
+  - { offsetInCU: 0x384E, offset: 0x643D3, size: 0x8, addend: 0x0, symName: '___38-[GIDSignIn addDecodeIdTokenCallback:]_block_invoke_2', symObjAddr: 0x2EC7, symBinAddr: 0xABA1, symSize: 0x274 }
+  - { offsetInCU: 0x3AEC, offset: 0x64671, size: 0x8, addend: 0x0, symName: '-[GIDSignIn addCompletionCallback:]', symObjAddr: 0x313B, symBinAddr: 0xAE15, symSize: 0xC1 }
+  - { offsetInCU: 0x3B86, offset: 0x6470B, size: 0x8, addend: 0x0, symName: '___35-[GIDSignIn addCompletionCallback:]_block_invoke', symObjAddr: 0x31FC, symBinAddr: 0xAED6, symSize: 0x11C }
+  - { offsetInCU: 0x3CC3, offset: 0x64848, size: 0x8, addend: 0x0, symName: '___35-[GIDSignIn addCompletionCallback:]_block_invoke_2', symObjAddr: 0x3318, symBinAddr: 0xAFF2, symSize: 0x168 }
+  - { offsetInCU: 0x3E7C, offset: 0x64A01, size: 0x8, addend: 0x0, symName: '-[GIDSignIn startFetchURL:fromAuthState:withComment:withCompletionHandler:]', symObjAddr: 0x34F0, symBinAddr: 0xB15A, symSize: 0x16E }
+  - { offsetInCU: 0x408E, offset: 0x64C13, size: 0x8, addend: 0x0, symName: '-[GIDSignIn handleDevicePolicyAppURL:]', symObjAddr: 0x365E, symBinAddr: 0xB2C8, symSize: 0x235 }
+  - { offsetInCU: 0x42C7, offset: 0x64E4C, size: 0x8, addend: 0x0, symName: '___38-[GIDSignIn handleDevicePolicyAppURL:]_block_invoke', symObjAddr: 0x3893, symBinAddr: 0xB4FD, symSize: 0x5A }
+  - { offsetInCU: 0x434E, offset: 0x64ED3, size: 0x8, addend: 0x0, symName: '-[GIDSignIn errorWithString:code:]', symObjAddr: 0x38ED, symBinAddr: 0xB557, symSize: 0xDD }
+  - { offsetInCU: 0x4406, offset: 0x64F8B, size: 0x8, addend: 0x0, symName: '+[GIDSignIn isOperatingSystemAtLeast9]', symObjAddr: 0x39CA, symBinAddr: 0xB634, symSize: 0x96 }
+  - { offsetInCU: 0x4496, offset: 0x6501B, size: 0x8, addend: 0x0, symName: '-[GIDSignIn assertValidParameters]', symObjAddr: 0x3A60, symBinAddr: 0xB6CA, symSize: 0xA3 }
+  - { offsetInCU: 0x4522, offset: 0x650A7, size: 0x8, addend: 0x0, symName: '-[GIDSignIn assertValidPresentingViewController]', symObjAddr: 0x3B03, symBinAddr: 0xB76D, symSize: 0x64 }
+  - { offsetInCU: 0x457A, offset: 0x650FF, size: 0x8, addend: 0x0, symName: '-[GIDSignIn isFreshInstall]', symObjAddr: 0x3B67, symBinAddr: 0xB7D1, symSize: 0x76 }
+  - { offsetInCU: 0x4601, offset: 0x65186, size: 0x8, addend: 0x0, symName: '-[GIDSignIn removeAllKeychainEntries]', symObjAddr: 0x3BDD, symBinAddr: 0xB847, symSize: 0x25 }
+  - { offsetInCU: 0x4644, offset: 0x651C9, size: 0x8, addend: 0x0, symName: '-[GIDSignIn saveAuthState:]', symObjAddr: 0x3C02, symBinAddr: 0xB86C, symSize: 0x83 }
+  - { offsetInCU: 0x4705, offset: 0x6528A, size: 0x8, addend: 0x0, symName: '-[GIDSignIn loadAuthState]', symObjAddr: 0x3C85, symBinAddr: 0xB8EF, symSize: 0x63 }
+  - { offsetInCU: 0x4772, offset: 0x652F7, size: 0x8, addend: 0x0, symName: '-[GIDSignIn profileDataWithIDToken:]', symObjAddr: 0x3CE8, symBinAddr: 0xB952, symSize: 0x391 }
+  - { offsetInCU: 0x4AE4, offset: 0x65669, size: 0x8, addend: 0x0, symName: '+[GIDSignIn configValueFromBundle:forKey:]', symObjAddr: 0x4079, symBinAddr: 0xBCE3, symSize: 0x74 }
+  - { offsetInCU: 0x4BAC, offset: 0x65731, size: 0x8, addend: 0x0, symName: '+[GIDSignIn configurationFromBundle:]', symObjAddr: 0x40ED, symBinAddr: 0xBD57, symSize: 0x129 }
+  - { offsetInCU: 0x4D0C, offset: 0x65891, size: 0x8, addend: 0x0, symName: '-[GIDSignIn currentUser]', symObjAddr: 0x4216, symBinAddr: 0xBE80, symSize: 0xA }
+  - { offsetInCU: 0x4D41, offset: 0x658C6, size: 0x8, addend: 0x0, symName: '-[GIDSignIn setCurrentUser:]', symObjAddr: 0x4220, symBinAddr: 0xBE8A, symSize: 0x11 }
+  - { offsetInCU: 0x4D80, offset: 0x65905, size: 0x8, addend: 0x0, symName: '-[GIDSignIn configuration]', symObjAddr: 0x4231, symBinAddr: 0xBE9B, symSize: 0xA }
+  - { offsetInCU: 0x4DB5, offset: 0x6593A, size: 0x8, addend: 0x0, symName: '-[GIDSignIn setConfiguration:]', symObjAddr: 0x423B, symBinAddr: 0xBEA5, symSize: 0x11 }
+  - { offsetInCU: 0x4DF4, offset: 0x65979, size: 0x8, addend: 0x0, symName: '-[GIDSignIn .cxx_destruct]', symObjAddr: 0x424C, symBinAddr: 0xBEB6, symSize: 0x49 }
+  - { offsetInCU: 0x27, offset: 0x66494, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0xBEFF, symSize: 0x5D }
+  - { offsetInCU: 0x13A, offset: 0x665A7, size: 0x8, addend: 0x0, symName: _kIconFrame, symObjAddr: 0x2840, symBinAddr: 0xFAB0, symSize: 0x0 }
+  - { offsetInCU: 0x17B, offset: 0x665E8, size: 0x8, addend: 0x0, symName: _kColors, symObjAddr: 0x2860, symBinAddr: 0xFAD0, symSize: 0x0 }
+  - { offsetInCU: 0x2B6, offset: 0x66723, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0xBEFF, symSize: 0x5D }
+  - { offsetInCU: 0x310, offset: 0x6677D, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton sharedInit]', symObjAddr: 0x5D, symBinAddr: 0xBF5C, symSize: 0x1B9 }
+  - { offsetInCU: 0x4C2, offset: 0x6692F, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton initWithCoder:]', symObjAddr: 0x216, symBinAddr: 0xC115, symSize: 0x127 }
+  - { offsetInCU: 0x5D3, offset: 0x66A40, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton encodeWithCoder:]', symObjAddr: 0x33D, symBinAddr: 0xC23C, symSize: 0xBA }
+  - { offsetInCU: 0x690, offset: 0x66AFD, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton updateUI]', symObjAddr: 0x3F7, symBinAddr: 0xC2F6, symSize: 0xAC }
+  - { offsetInCU: 0x748, offset: 0x66BB5, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton loadIcon]', symObjAddr: 0x4A3, symBinAddr: 0xC3A2, symSize: 0x14C }
+  - { offsetInCU: 0x87E, offset: 0x66CEB, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton switchToPressed]', symObjAddr: 0x5EF, symBinAddr: 0xC4EE, symSize: 0x17 }
+  - { offsetInCU: 0x8CB, offset: 0x66D38, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton switchToNormal]', symObjAddr: 0x606, symBinAddr: 0xC505, symSize: 0x14 }
+  - { offsetInCU: 0x918, offset: 0x66D85, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton switchToDisabled]', symObjAddr: 0x61A, symBinAddr: 0xC519, symSize: 0x17 }
+  - { offsetInCU: 0x965, offset: 0x66DD2, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton setStyle:]', symObjAddr: 0x631, symBinAddr: 0xC530, symSize: 0x25 }
+  - { offsetInCU: 0x9B2, offset: 0x66E1F, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton setColorScheme:]', symObjAddr: 0x656, symBinAddr: 0xC555, symSize: 0x25 }
+  - { offsetInCU: 0x9FF, offset: 0x66E6C, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton setEnabled:]', symObjAddr: 0x67B, symBinAddr: 0xC57A, symSize: 0x80 }
+  - { offsetInCU: 0xA81, offset: 0x66EEE, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton setButtonState:]', symObjAddr: 0x6FB, symBinAddr: 0xC5FA, symSize: 0x25 }
+  - { offsetInCU: 0xACE, offset: 0x66F3B, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton setFrame:]', symObjAddr: 0x720, symBinAddr: 0xC61F, symSize: 0xCE }
+  - { offsetInCU: 0xB7B, offset: 0x66FE8, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton minWidth]', symObjAddr: 0x7EE, symBinAddr: 0xC6ED, symSize: 0xE3 }
+  - { offsetInCU: 0xC62, offset: 0x670CF, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton isConstraint:equalToConstraint:]', symObjAddr: 0x8D1, symBinAddr: 0xC7D0, symSize: 0x205 }
+  - { offsetInCU: 0xEA0, offset: 0x6730D, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton sizeThatFits:]', symObjAddr: 0xAD6, symBinAddr: 0xC9D5, symSize: 0x4C }
+  - { offsetInCU: 0xF32, offset: 0x6739F, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton updateConstraints]', symObjAddr: 0xB22, symBinAddr: 0xCA21, symSize: 0x446 }
+  - { offsetInCU: 0x1183, offset: 0x675F0, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton drawRect:]', symObjAddr: 0xF68, symBinAddr: 0xCE67, symSize: 0x8E }
+  - { offsetInCU: 0x12BE, offset: 0x6772B, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton drawButtonBackground:]', symObjAddr: 0xFF6, symBinAddr: 0xCEF5, symSize: 0x3AA }
+  - { offsetInCU: 0x1702, offset: 0x67B6F, size: 0x8, addend: 0x0, symName: _colorForStyleState, symObjAddr: 0x13A0, symBinAddr: 0xD29F, symSize: 0x86 }
+  - { offsetInCU: 0x1854, offset: 0x67CC1, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton drawButtonText:]', symObjAddr: 0x1426, symBinAddr: 0xD325, symSize: 0x1A8 }
+  - { offsetInCU: 0x19E0, offset: 0x67E4D, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton buttonText]', symObjAddr: 0x15CE, symBinAddr: 0xD4CD, symSize: 0x41 }
+  - { offsetInCU: 0x1A24, offset: 0x67E91, size: 0x8, addend: 0x0, symName: '+[GIDSignInButton buttonTextFont]', symObjAddr: 0x160F, symBinAddr: 0xD50E, symSize: 0x61 }
+  - { offsetInCU: 0x1A81, offset: 0x67EEE, size: 0x8, addend: 0x0, symName: '+[GIDSignInButton textSize:withFont:]', symObjAddr: 0x1670, symBinAddr: 0xD56F, symSize: 0x11E }
+  - { offsetInCU: 0x1B48, offset: 0x67FB5, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton style]', symObjAddr: 0x178E, symBinAddr: 0xD68D, symSize: 0x11 }
+  - { offsetInCU: 0x1B7D, offset: 0x67FEA, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton colorScheme]', symObjAddr: 0x179F, symBinAddr: 0xD69E, symSize: 0x11 }
+  - { offsetInCU: 0x1BB2, offset: 0x6801F, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton buttonState]', symObjAddr: 0x17B0, symBinAddr: 0xD6AF, symSize: 0x11 }
+  - { offsetInCU: 0x1BE7, offset: 0x68054, size: 0x8, addend: 0x0, symName: '-[GIDSignInButton .cxx_destruct]', symObjAddr: 0x17C1, symBinAddr: 0xD6C0, symSize: 0x13 }
+  - { offsetInCU: 0x1C1A, offset: 0x68087, size: 0x8, addend: 0x0, symName: '-[UIImage(GIDAdditions_Private) gid_imageWithBlendMode:color:]', symObjAddr: 0x17D4, symBinAddr: 0xD6D3, symSize: 0x3FA }
+  - { offsetInCU: 0x27, offset: 0x685E5, size: 0x8, addend: 0x0, symName: '+[GIDSignInCallbackSchemes relevantURLSchemes]', symObjAddr: 0x0, symBinAddr: 0xDACD, symSize: 0x2FE }
+  - { offsetInCU: 0x5F, offset: 0x6861D, size: 0x8, addend: 0x0, symName: '+[GIDSignInCallbackSchemes relevantURLSchemes]', symObjAddr: 0x0, symBinAddr: 0xDACD, symSize: 0x2FE }
+  - { offsetInCU: 0x1FD, offset: 0x687BB, size: 0x8, addend: 0x0, symName: '-[GIDSignInCallbackSchemes initWithClientIdentifier:]', symObjAddr: 0x2FE, symBinAddr: 0xDDCB, symSize: 0x73 }
+  - { offsetInCU: 0x28D, offset: 0x6884B, size: 0x8, addend: 0x0, symName: '-[GIDSignInCallbackSchemes clientIdentifierScheme]', symObjAddr: 0x371, symBinAddr: 0xDE3E, symSize: 0xCE }
+  - { offsetInCU: 0x36A, offset: 0x68928, size: 0x8, addend: 0x0, symName: '-[GIDSignInCallbackSchemes allSchemes]', symObjAddr: 0x43F, symBinAddr: 0xDF0C, symSize: 0x7B }
+  - { offsetInCU: 0x400, offset: 0x689BE, size: 0x8, addend: 0x0, symName: '-[GIDSignInCallbackSchemes unsupportedSchemes]', symObjAddr: 0x4BA, symBinAddr: 0xDF87, symSize: 0xAD }
+  - { offsetInCU: 0x4C3, offset: 0x68A81, size: 0x8, addend: 0x0, symName: '-[GIDSignInCallbackSchemes URLSchemeIsCallbackScheme:]', symObjAddr: 0x567, symBinAddr: 0xE034, symSize: 0x197 }
+  - { offsetInCU: 0x5CA, offset: 0x68B88, size: 0x8, addend: 0x0, symName: '-[GIDSignInCallbackSchemes .cxx_destruct]', symObjAddr: 0x6FE, symBinAddr: 0xE1CB, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0x68C69, size: 0x8, addend: 0x0, symName: '+[GIDSignInInternalOptions defaultOptionsWithConfiguration:presentingViewController:loginHint:addScopesFlow:scopes:completion:]', symObjAddr: 0x0, symBinAddr: 0xE1DB, symSize: 0x134 }
+  - { offsetInCU: 0x204, offset: 0x68E46, size: 0x8, addend: 0x0, symName: '+[GIDSignInInternalOptions defaultOptionsWithConfiguration:presentingViewController:loginHint:addScopesFlow:scopes:completion:]', symObjAddr: 0x0, symBinAddr: 0xE1DB, symSize: 0x134 }
+  - { offsetInCU: 0x3A6, offset: 0x68FE8, size: 0x8, addend: 0x0, symName: '+[GIDSignInInternalOptions defaultOptionsWithConfiguration:presentingViewController:loginHint:addScopesFlow:completion:]', symObjAddr: 0x134, symBinAddr: 0xE30F, symSize: 0x23 }
+  - { offsetInCU: 0x471, offset: 0x690B3, size: 0x8, addend: 0x0, symName: '+[GIDSignInInternalOptions silentOptionsWithCompletion:]', symObjAddr: 0x157, symBinAddr: 0xE332, symSize: 0x32 }
+  - { offsetInCU: 0x4F5, offset: 0x69137, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions optionsWithExtraParameters:forContinuation:]', symObjAddr: 0x189, symBinAddr: 0xE364, symSize: 0xF9 }
+  - { offsetInCU: 0x5D1, offset: 0x69213, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions interactive]', symObjAddr: 0x282, symBinAddr: 0xE45D, symSize: 0x9 }
+  - { offsetInCU: 0x606, offset: 0x69248, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions continuation]', symObjAddr: 0x28B, symBinAddr: 0xE466, symSize: 0x9 }
+  - { offsetInCU: 0x63B, offset: 0x6927D, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions addScopesFlow]', symObjAddr: 0x294, symBinAddr: 0xE46F, symSize: 0x9 }
+  - { offsetInCU: 0x670, offset: 0x692B2, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions extraParams]', symObjAddr: 0x29D, symBinAddr: 0xE478, symSize: 0xA }
+  - { offsetInCU: 0x6A5, offset: 0x692E7, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions configuration]', symObjAddr: 0x2A7, symBinAddr: 0xE482, symSize: 0xA }
+  - { offsetInCU: 0x6DA, offset: 0x6931C, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions presentingViewController]', symObjAddr: 0x2B1, symBinAddr: 0xE48C, symSize: 0x16 }
+  - { offsetInCU: 0x711, offset: 0x69353, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions completion]', symObjAddr: 0x2C7, symBinAddr: 0xE4A2, symSize: 0xA }
+  - { offsetInCU: 0x746, offset: 0x69388, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions scopes]', symObjAddr: 0x2D1, symBinAddr: 0xE4AC, symSize: 0xA }
+  - { offsetInCU: 0x77B, offset: 0x693BD, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions setScopes:]', symObjAddr: 0x2DB, symBinAddr: 0xE4B6, symSize: 0xF }
+  - { offsetInCU: 0x7BA, offset: 0x693FC, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions loginHint]', symObjAddr: 0x2EA, symBinAddr: 0xE4C5, symSize: 0xA }
+  - { offsetInCU: 0x7EF, offset: 0x69431, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions setLoginHint:]', symObjAddr: 0x2F4, symBinAddr: 0xE4CF, symSize: 0xF }
+  - { offsetInCU: 0x82E, offset: 0x69470, size: 0x8, addend: 0x0, symName: '-[GIDSignInInternalOptions .cxx_destruct]', symObjAddr: 0x303, symBinAddr: 0xE4DE, symSize: 0x52 }
+  - { offsetInCU: 0x27, offset: 0x69527, size: 0x8, addend: 0x0, symName: _GIDVersion, symObjAddr: 0x0, symBinAddr: 0xE530, symSize: 0x29 }
+  - { offsetInCU: 0x4B, offset: 0x6954B, size: 0x8, addend: 0x0, symName: _kSDKVersionLoggingParameter, symObjAddr: 0x1C0, symBinAddr: 0x14860, symSize: 0x0 }
+  - { offsetInCU: 0x61, offset: 0x69561, size: 0x8, addend: 0x0, symName: _kEnvironmentLoggingParameter, symObjAddr: 0x1C8, symBinAddr: 0x14868, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x69572, size: 0x8, addend: 0x0, symName: _GIDVersion, symObjAddr: 0x0, symBinAddr: 0xE530, symSize: 0x29 }
+  - { offsetInCU: 0x99, offset: 0x69599, size: 0x8, addend: 0x0, symName: _GIDEnvironment, symObjAddr: 0x29, symBinAddr: 0xE559, symSize: 0xD }
+  - { offsetInCU: 0xC4, offset: 0x695C4, size: 0x8, addend: 0x0, symName: '+[GIDSignInPreferences googleAuthorizationServer]', symObjAddr: 0x36, symBinAddr: 0xE566, symSize: 0xD }
+  - { offsetInCU: 0xF7, offset: 0x695F7, size: 0x8, addend: 0x0, symName: '+[GIDSignInPreferences googleTokenServer]', symObjAddr: 0x43, symBinAddr: 0xE573, symSize: 0xD }
+  - { offsetInCU: 0x12A, offset: 0x6962A, size: 0x8, addend: 0x0, symName: '+[GIDSignInPreferences googleUserInfoServer]', symObjAddr: 0x50, symBinAddr: 0xE580, symSize: 0xD }
+  - { offsetInCU: 0x27, offset: 0x696AF, size: 0x8, addend: 0x0, symName: '-[GIDSignInResult initWithGoogleUser:serverAuthCode:]', symObjAddr: 0x0, symBinAddr: 0xE58D, symSize: 0x99 }
+  - { offsetInCU: 0x167, offset: 0x697EF, size: 0x8, addend: 0x0, symName: '-[GIDSignInResult initWithGoogleUser:serverAuthCode:]', symObjAddr: 0x0, symBinAddr: 0xE58D, symSize: 0x99 }
+  - { offsetInCU: 0x20F, offset: 0x69897, size: 0x8, addend: 0x0, symName: '-[GIDSignInResult user]', symObjAddr: 0x99, symBinAddr: 0xE626, symSize: 0xA }
+  - { offsetInCU: 0x244, offset: 0x698CC, size: 0x8, addend: 0x0, symName: '-[GIDSignInResult serverAuthCode]', symObjAddr: 0xA3, symBinAddr: 0xE630, symSize: 0xA }
+  - { offsetInCU: 0x279, offset: 0x69901, size: 0x8, addend: 0x0, symName: '-[GIDSignInResult .cxx_destruct]', symObjAddr: 0xAD, symBinAddr: 0xE63A, symSize: 0x28 }
+  - { offsetInCU: 0x27, offset: 0x69981, size: 0x8, addend: 0x0, symName: '+[GIDSignInStrings localizedStringForKey:text:]', symObjAddr: 0x0, symBinAddr: 0xE662, symSize: 0xA7 }
+  - { offsetInCU: 0x41, offset: 0x6999B, size: 0x8, addend: 0x0, symName: '+[GIDSignInStrings localizedStringForKey:text:]', symObjAddr: 0x0, symBinAddr: 0xE662, symSize: 0xA7 }
+  - { offsetInCU: 0x11D, offset: 0x69A77, size: 0x8, addend: 0x0, symName: '+[GIDSignInStrings signInString]', symObjAddr: 0xA7, symBinAddr: 0xE709, symSize: 0x1C }
+  - { offsetInCU: 0x167, offset: 0x69AC1, size: 0x8, addend: 0x0, symName: '+[GIDSignInStrings signInWithGoogleString]', symObjAddr: 0xC3, symBinAddr: 0xE725, symSize: 0x1C }
+  - { offsetInCU: 0x27, offset: 0x69B62, size: 0x8, addend: 0x0, symName: '-[GIDToken initWithTokenString:expirationDate:]', symObjAddr: 0x0, symBinAddr: 0xE741, symSize: 0xA6 }
+  - { offsetInCU: 0x90, offset: 0x69BCB, size: 0x8, addend: 0x0, symName: '-[GIDToken initWithTokenString:expirationDate:]', symObjAddr: 0x0, symBinAddr: 0xE741, symSize: 0xA6 }
+  - { offsetInCU: 0x158, offset: 0x69C93, size: 0x8, addend: 0x0, symName: '+[GIDToken supportsSecureCoding]', symObjAddr: 0xA6, symBinAddr: 0xE7E7, symSize: 0x8 }
+  - { offsetInCU: 0x18B, offset: 0x69CC6, size: 0x8, addend: 0x0, symName: '-[GIDToken initWithCoder:]', symObjAddr: 0xAE, symBinAddr: 0xE7EF, symSize: 0xE8 }
+  - { offsetInCU: 0x243, offset: 0x69D7E, size: 0x8, addend: 0x0, symName: '-[GIDToken encodeWithCoder:]', symObjAddr: 0x196, symBinAddr: 0xE8D7, symSize: 0x6D }
+  - { offsetInCU: 0x2E5, offset: 0x69E20, size: 0x8, addend: 0x0, symName: '-[GIDToken isEqual:]', symObjAddr: 0x203, symBinAddr: 0xE944, symSize: 0x86 }
+  - { offsetInCU: 0x390, offset: 0x69ECB, size: 0x8, addend: 0x0, symName: '-[GIDToken isEqualToToken:]', symObjAddr: 0x289, symBinAddr: 0xE9CA, symSize: 0xBC }
+  - { offsetInCU: 0x46F, offset: 0x69FAA, size: 0x8, addend: 0x0, symName: '-[GIDToken isTheSameDate:with:]', symObjAddr: 0x345, symBinAddr: 0xEA86, symSize: 0x24 }
+  - { offsetInCU: 0x4CC, offset: 0x6A007, size: 0x8, addend: 0x0, symName: '-[GIDToken hash]', symObjAddr: 0x369, symBinAddr: 0xEAAA, symSize: 0x8C }
+  - { offsetInCU: 0x56B, offset: 0x6A0A6, size: 0x8, addend: 0x0, symName: '-[GIDToken tokenString]', symObjAddr: 0x3F5, symBinAddr: 0xEB36, symSize: 0xA }
+  - { offsetInCU: 0x5A0, offset: 0x6A0DB, size: 0x8, addend: 0x0, symName: '-[GIDToken expirationDate]', symObjAddr: 0x3FF, symBinAddr: 0xEB40, symSize: 0xA }
+  - { offsetInCU: 0x5D5, offset: 0x6A110, size: 0x8, addend: 0x0, symName: '-[GIDToken .cxx_destruct]', symObjAddr: 0x409, symBinAddr: 0xEB4A, symSize: 0x28 }
+  - { offsetInCU: 0x27, offset: 0x6A1D5, size: 0x8, addend: 0x0, symName: '+[NSBundle(GID3PAdditions) gid_frameworkBundle]', symObjAddr: 0x0, symBinAddr: 0xEB72, symSize: 0xFE }
+  - { offsetInCU: 0x41, offset: 0x6A1EF, size: 0x8, addend: 0x0, symName: _GoogleSignInBundleName, symObjAddr: 0x4A0, symBinAddr: 0x14870, symSize: 0x0 }
+  - { offsetInCU: 0x55, offset: 0x6A203, size: 0x8, addend: 0x0, symName: '+[NSBundle(GID3PAdditions) gid_registerFonts]', symObjAddr: 0xFE, symBinAddr: 0xEC70, symSize: 0x58 }
+  - { offsetInCU: 0x7B, offset: 0x6A229, size: 0x8, addend: 0x0, symName: _gid_registerFonts.once, symObjAddr: 0x2C18, symBinAddr: 0x1AA58, symSize: 0x0 }
+  - { offsetInCU: 0xEF, offset: 0x6A29D, size: 0x8, addend: 0x0, symName: '+[NSBundle(GID3PAdditions) gid_frameworkBundle]', symObjAddr: 0x0, symBinAddr: 0xEB72, symSize: 0xFE }
+  - { offsetInCU: 0x205, offset: 0x6A3B3, size: 0x8, addend: 0x0, symName: '___45+[NSBundle(GID3PAdditions) gid_registerFonts]_block_invoke', symObjAddr: 0x156, symBinAddr: 0xECC8, symSize: 0x29A }
+...

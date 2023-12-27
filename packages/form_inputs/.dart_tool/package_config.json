@@ -1,0 +1,26 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "formz",
+      "rootUri": "file:///Users/eslam/.pub-cache/hosted/pub.dev/formz-0.6.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///Users/eslam/.pub-cache/hosted/pub.dev/meta-1.11.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "form_inputs",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    }
+  ],
+  "generated": "2023-12-27T05:25:40.614797Z",
+  "generator": "pub",
+  "generatorVersion": "3.2.3"
+}

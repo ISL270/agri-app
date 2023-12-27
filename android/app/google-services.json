@@ -12,7 +12,12 @@
           "package_name": "com.example.verygoodcore.agri"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "443778834970-hkhgh6u2voq78nqno585tbdb17idp93h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAtrHrAyglsBr1_PBbHfBRXzYOnvQEqxFI"
@@ -20,7 +25,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443778834970-hkhgh6u2voq78nqno585tbdb17idp93h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "443778834970-qlrsa0smvi9qit53374mn5ptf531p276.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.verygoodcore.agri"
+              }
+            }
+          ]
         }
       }
     }

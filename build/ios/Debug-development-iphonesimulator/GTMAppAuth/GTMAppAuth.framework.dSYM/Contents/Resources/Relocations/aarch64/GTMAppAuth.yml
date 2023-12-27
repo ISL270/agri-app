@@ -1,0 +1,107 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/eslam/Development/Flutter projects/agri/build/ios/Debug-development-iphonesimulator/GTMAppAuth/GTMAppAuth.framework/GTMAppAuth'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x2749A, size: 0x8, addend: 0x0, symName: _GTMAppAuthVersionString, symObjAddr: 0x0, symBinAddr: 0x5F90, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x274CE, size: 0x8, addend: 0x0, symName: _GTMAppAuthVersionNumber, symObjAddr: 0x28, symBinAddr: 0x5FB8, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x2750A, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthFetcherAuthorizationArgs argsWithRequest:delegate:selector:completionHandler:]', symObjAddr: 0x0, symBinAddr: 0x132C, symSize: 0xB8 }
+  - { offsetInCU: 0x94, offset: 0x27577, size: 0x8, addend: 0x0, symName: _GTMAppAuthFetcherAuthorizationErrorDomain, symObjAddr: 0x1A48, symBinAddr: 0x8098, symSize: 0x0 }
+  - { offsetInCU: 0xA9, offset: 0x2758C, size: 0x8, addend: 0x0, symName: _GTMAppAuthFetcherAuthorizationErrorRequestKey, symObjAddr: 0x1A50, symBinAddr: 0x80A0, symSize: 0x0 }
+  - { offsetInCU: 0x2F7, offset: 0x277DA, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthFetcherAuthorizationArgs argsWithRequest:delegate:selector:completionHandler:]', symObjAddr: 0x0, symBinAddr: 0x132C, symSize: 0xB8 }
+  - { offsetInCU: 0x372, offset: 0x27855, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorizationArgs request]', symObjAddr: 0xB8, symBinAddr: 0x13E4, symSize: 0x8 }
+  - { offsetInCU: 0x3A6, offset: 0x27889, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorizationArgs setRequest:]', symObjAddr: 0xC0, symBinAddr: 0x13EC, symSize: 0xC }
+  - { offsetInCU: 0x3E3, offset: 0x278C6, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorizationArgs delegate]', symObjAddr: 0xCC, symBinAddr: 0x13F8, symSize: 0x18 }
+  - { offsetInCU: 0x417, offset: 0x278FA, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorizationArgs setDelegate:]', symObjAddr: 0xE4, symBinAddr: 0x1410, symSize: 0xC }
+  - { offsetInCU: 0x454, offset: 0x27937, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorizationArgs selector]', symObjAddr: 0xF0, symBinAddr: 0x141C, symSize: 0x8 }
+  - { offsetInCU: 0x488, offset: 0x2796B, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorizationArgs setSelector:]', symObjAddr: 0xF8, symBinAddr: 0x1424, symSize: 0x8 }
+  - { offsetInCU: 0x4C1, offset: 0x279A4, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorizationArgs completionHandler]', symObjAddr: 0x100, symBinAddr: 0x142C, symSize: 0x8 }
+  - { offsetInCU: 0x4F5, offset: 0x279D8, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorizationArgs setCompletionHandler:]', symObjAddr: 0x108, symBinAddr: 0x1434, symSize: 0x8 }
+  - { offsetInCU: 0x530, offset: 0x27A13, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorizationArgs error]', symObjAddr: 0x110, symBinAddr: 0x143C, symSize: 0x8 }
+  - { offsetInCU: 0x564, offset: 0x27A47, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorizationArgs setError:]', symObjAddr: 0x118, symBinAddr: 0x1444, symSize: 0xC }
+  - { offsetInCU: 0x5A1, offset: 0x27A84, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorizationArgs .cxx_destruct]', symObjAddr: 0x124, symBinAddr: 0x1450, symSize: 0x44 }
+  - { offsetInCU: 0x5D1, offset: 0x27AB4, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization init]', symObjAddr: 0x168, symBinAddr: 0x1494, symSize: 0xA4 }
+  - { offsetInCU: 0x648, offset: 0x27B2B, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization initWithAuthState:]', symObjAddr: 0x20C, symBinAddr: 0x1538, symSize: 0x14 }
+  - { offsetInCU: 0x687, offset: 0x27B6A, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization initWithAuthState:serviceProvider:userID:userEmail:userEmailIsVerified:]', symObjAddr: 0x220, symBinAddr: 0x154C, symSize: 0x2D4 }
+  - { offsetInCU: 0x740, offset: 0x27C23, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthFetcherAuthorization configurationForGoogle]', symObjAddr: 0x4F4, symBinAddr: 0x1820, symSize: 0x8C }
+  - { offsetInCU: 0x79D, offset: 0x27C80, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization authorizeRequestArgs:]', symObjAddr: 0x580, symBinAddr: 0x18AC, symSize: 0x11C }
+  - { offsetInCU: 0x7EB, offset: 0x27CCE, size: 0x8, addend: 0x0, symName: '___55-[GTMAppAuthFetcherAuthorization authorizeRequestArgs:]_block_invoke', symObjAddr: 0x69C, symBinAddr: 0x19C8, symSize: 0x1A4 }
+  - { offsetInCU: 0x869, offset: 0x27D4C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x840, symBinAddr: 0x1B6C, symSize: 0x8 }
+  - { offsetInCU: 0x88E, offset: 0x27D71, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x848, symBinAddr: 0x1B74, symSize: 0x8 }
+  - { offsetInCU: 0x8E2, offset: 0x27DC5, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization authorizeRequestImmediateArgs:accessToken:error:]', symObjAddr: 0x850, symBinAddr: 0x1B7C, symSize: 0x37C }
+  - { offsetInCU: 0xA8C, offset: 0x27F6F, size: 0x8, addend: 0x0, symName: '___82-[GTMAppAuthFetcherAuthorization authorizeRequestImmediateArgs:accessToken:error:]_block_invoke', symObjAddr: 0xBCC, symBinAddr: 0x1EF8, symSize: 0xC }
+  - { offsetInCU: 0xADD, offset: 0x27FC0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0xBD8, symBinAddr: 0x1F04, symSize: 0x28 }
+  - { offsetInCU: 0xB04, offset: 0x27FE7, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0xC00, symBinAddr: 0x1F2C, symSize: 0x28 }
+  - { offsetInCU: 0xB22, offset: 0x28005, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization invokeCallbackArgs:]', symObjAddr: 0xC28, symBinAddr: 0x1F54, symSize: 0x1A0 }
+  - { offsetInCU: 0xC26, offset: 0x28109, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization authorizeRequest:delegate:didFinishSelector:]', symObjAddr: 0xDC8, symBinAddr: 0x20F4, symSize: 0xB0 }
+  - { offsetInCU: 0xCCC, offset: 0x281AF, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization stopAuthorization]', symObjAddr: 0xE78, symBinAddr: 0x21A4, symSize: 0x54 }
+  - { offsetInCU: 0xCFE, offset: 0x281E1, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization stopAuthorizationForRequest:]', symObjAddr: 0xECC, symBinAddr: 0x21F8, symSize: 0x1A4 }
+  - { offsetInCU: 0xD88, offset: 0x2826B, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization isAuthorizingRequest:]', symObjAddr: 0x1070, symBinAddr: 0x239C, symSize: 0x16C }
+  - { offsetInCU: 0xDFF, offset: 0x282E2, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization isAuthorizedRequest:]', symObjAddr: 0x11DC, symBinAddr: 0x2508, symSize: 0x4C }
+  - { offsetInCU: 0xE53, offset: 0x28336, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization canAuthorize]', symObjAddr: 0x1228, symBinAddr: 0x2554, symSize: 0x8 }
+  - { offsetInCU: 0xE89, offset: 0x2836C, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization authorizeRequest:completionHandler:]', symObjAddr: 0x1230, symBinAddr: 0x255C, symSize: 0x50 }
+  - { offsetInCU: 0xEEE, offset: 0x283D1, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization primeForRefresh]', symObjAddr: 0x1280, symBinAddr: 0x25AC, symSize: 0x48 }
+  - { offsetInCU: 0xF24, offset: 0x28407, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthFetcherAuthorization supportsSecureCoding]', symObjAddr: 0x12C8, symBinAddr: 0x25F4, symSize: 0x8 }
+  - { offsetInCU: 0xF56, offset: 0x28439, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization initWithCoder:]', symObjAddr: 0x12D0, symBinAddr: 0x25FC, symSize: 0x168 }
+  - { offsetInCU: 0xFF2, offset: 0x284D5, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization encodeWithCoder:]', symObjAddr: 0x1438, symBinAddr: 0x2764, symSize: 0x98 }
+  - { offsetInCU: 0x1035, offset: 0x28518, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization authState]', symObjAddr: 0x14D0, symBinAddr: 0x27FC, symSize: 0x8 }
+  - { offsetInCU: 0x1069, offset: 0x2854C, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization serviceProvider]', symObjAddr: 0x14D8, symBinAddr: 0x2804, symSize: 0x8 }
+  - { offsetInCU: 0x109D, offset: 0x28580, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization userID]', symObjAddr: 0x14E0, symBinAddr: 0x280C, symSize: 0x8 }
+  - { offsetInCU: 0x10D1, offset: 0x285B4, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization userEmailIsVerified]', symObjAddr: 0x14E8, symBinAddr: 0x2814, symSize: 0x8 }
+  - { offsetInCU: 0x1105, offset: 0x285E8, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization userEmail]', symObjAddr: 0x14F0, symBinAddr: 0x281C, symSize: 0xC }
+  - { offsetInCU: 0x1139, offset: 0x2861C, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization shouldAuthorizeAllRequests]', symObjAddr: 0x14FC, symBinAddr: 0x2828, symSize: 0xC }
+  - { offsetInCU: 0x116E, offset: 0x28651, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization setShouldAuthorizeAllRequests:]', symObjAddr: 0x1508, symBinAddr: 0x2834, symSize: 0x8 }
+  - { offsetInCU: 0x11A8, offset: 0x2868B, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization fetcherService]', symObjAddr: 0x1510, symBinAddr: 0x283C, symSize: 0x18 }
+  - { offsetInCU: 0x11DC, offset: 0x286BF, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization setFetcherService:]', symObjAddr: 0x1528, symBinAddr: 0x2854, symSize: 0xC }
+  - { offsetInCU: 0x1219, offset: 0x286FC, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization tokenRefreshDelegate]', symObjAddr: 0x1534, symBinAddr: 0x2860, symSize: 0x18 }
+  - { offsetInCU: 0x124D, offset: 0x28730, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization setTokenRefreshDelegate:]', symObjAddr: 0x154C, symBinAddr: 0x2878, symSize: 0xC }
+  - { offsetInCU: 0x128A, offset: 0x2876D, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthFetcherAuthorization .cxx_destruct]', symObjAddr: 0x1558, symBinAddr: 0x2884, symSize: 0x70 }
+  - { offsetInCU: 0x27, offset: 0x28940, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthFetcherAuthorization(Keychain) authorizationFromKeychainForName:]', symObjAddr: 0x0, symBinAddr: 0x28F4, symSize: 0x10 }
+  - { offsetInCU: 0x42, offset: 0x2895B, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthFetcherAuthorization(Keychain) authorizationFromKeychainForName:]', symObjAddr: 0x0, symBinAddr: 0x28F4, symSize: 0x10 }
+  - { offsetInCU: 0x7F, offset: 0x28998, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthFetcherAuthorization(Keychain) authorizationFromKeychainForName:useDataProtectionKeychain:]', symObjAddr: 0x10, symBinAddr: 0x2904, symSize: 0xAC }
+  - { offsetInCU: 0xEC, offset: 0x28A05, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthFetcherAuthorization(Keychain) removeAuthorizationFromKeychainForName:]', symObjAddr: 0xBC, symBinAddr: 0x29B0, symSize: 0x10 }
+  - { offsetInCU: 0x12A, offset: 0x28A43, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthFetcherAuthorization(Keychain) removeAuthorizationFromKeychainForName:useDataProtectionKeychain:]', symObjAddr: 0xCC, symBinAddr: 0x29C0, symSize: 0xC }
+  - { offsetInCU: 0x17B, offset: 0x28A94, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthFetcherAuthorization(Keychain) saveAuthorization:toKeychainForName:]', symObjAddr: 0xD8, symBinAddr: 0x29CC, symSize: 0x10 }
+  - { offsetInCU: 0x1C6, offset: 0x28ADF, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthFetcherAuthorization(Keychain) saveAuthorization:toKeychainForName:useDataProtectionKeychain:]', symObjAddr: 0xE8, symBinAddr: 0x29DC, symSize: 0xC8 }
+  - { offsetInCU: 0x27, offset: 0x28C2F, size: 0x8, addend: 0x0, symName: '+[GTMKeychain removePasswordFromKeychainForName:]', symObjAddr: 0x0, symBinAddr: 0x2AA4, symSize: 0x10 }
+  - { offsetInCU: 0x4A, offset: 0x28C52, size: 0x8, addend: 0x0, symName: _kGTMAppAuthFetcherAuthorizationGTMOAuth2KeychainErrorDomain, symObjAddr: 0x1310, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x28C67, size: 0x8, addend: 0x0, symName: _gGTMAppAuthFetcherAuthorizationGTMOAuth2DefaultKeychain, symObjAddr: 0x6118, symBinAddr: 0xD708, symSize: 0x0 }
+  - { offsetInCU: 0x9F, offset: 0x28CA7, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthGTMOAuth2Keychain defaultKeychain]', symObjAddr: 0x3B0, symBinAddr: 0x2E54, symSize: 0x74 }
+  - { offsetInCU: 0xC8, offset: 0x28CD0, size: 0x8, addend: 0x0, symName: _defaultKeychain.onceToken, symObjAddr: 0x6120, symBinAddr: 0xD710, symSize: 0x0 }
+  - { offsetInCU: 0x188, offset: 0x28D90, size: 0x8, addend: 0x0, symName: '+[GTMKeychain removePasswordFromKeychainForName:]', symObjAddr: 0x0, symBinAddr: 0x2AA4, symSize: 0x10 }
+  - { offsetInCU: 0x1C6, offset: 0x28DCE, size: 0x8, addend: 0x0, symName: '+[GTMKeychain removePasswordFromKeychainForName:useDataProtectionKeychain:]', symObjAddr: 0x10, symBinAddr: 0x2AB4, symSize: 0x84 }
+  - { offsetInCU: 0x225, offset: 0x28E2D, size: 0x8, addend: 0x0, symName: '+[GTMKeychain passwordFromKeychainForName:]', symObjAddr: 0x94, symBinAddr: 0x2B38, symSize: 0x10 }
+  - { offsetInCU: 0x262, offset: 0x28E6A, size: 0x8, addend: 0x0, symName: '+[GTMKeychain passwordFromKeychainForName:useDataProtectionKeychain:]', symObjAddr: 0xA4, symBinAddr: 0x2B48, symSize: 0x98 }
+  - { offsetInCU: 0x2DE, offset: 0x28EE6, size: 0x8, addend: 0x0, symName: '+[GTMKeychain savePasswordToKeychainForName:password:]', symObjAddr: 0x13C, symBinAddr: 0x2BE0, symSize: 0x10 }
+  - { offsetInCU: 0x329, offset: 0x28F31, size: 0x8, addend: 0x0, symName: '+[GTMKeychain savePasswordToKeychainForName:password:useDataProtectionKeychain:]', symObjAddr: 0x14C, symBinAddr: 0x2BF0, symSize: 0xB8 }
+  - { offsetInCU: 0x3A7, offset: 0x28FAF, size: 0x8, addend: 0x0, symName: '+[GTMKeychain savePasswordDataToKeychainForName:passwordData:]', symObjAddr: 0x204, symBinAddr: 0x2CA8, symSize: 0x10 }
+  - { offsetInCU: 0x3F2, offset: 0x28FFA, size: 0x8, addend: 0x0, symName: '+[GTMKeychain savePasswordDataToKeychainForName:passwordData:useDataProtectionKeychain:]', symObjAddr: 0x214, symBinAddr: 0x2CB8, symSize: 0xB8 }
+  - { offsetInCU: 0x470, offset: 0x29078, size: 0x8, addend: 0x0, symName: '+[GTMKeychain passwordDataFromKeychainForName:]', symObjAddr: 0x2CC, symBinAddr: 0x2D70, symSize: 0x10 }
+  - { offsetInCU: 0x4AD, offset: 0x290B5, size: 0x8, addend: 0x0, symName: '+[GTMKeychain passwordDataFromKeychainForName:useDataProtectionKeychain:]', symObjAddr: 0x2DC, symBinAddr: 0x2D80, symSize: 0x98 }
+  - { offsetInCU: 0x529, offset: 0x29131, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthGTMOAuth2Keychain init]', symObjAddr: 0x374, symBinAddr: 0x2E18, symSize: 0x3C }
+  - { offsetInCU: 0x5AB, offset: 0x291B3, size: 0x8, addend: 0x0, symName: '___46+[GTMAppAuthGTMOAuth2Keychain defaultKeychain]_block_invoke', symObjAddr: 0x424, symBinAddr: 0x2EC8, symSize: 0x2C }
+  - { offsetInCU: 0x5E7, offset: 0x291EF, size: 0x8, addend: 0x0, symName: '+[GTMAppAuthGTMOAuth2Keychain setDefaultKeychain:]', symObjAddr: 0x450, symBinAddr: 0x2EF4, symSize: 0x4C }
+  - { offsetInCU: 0x622, offset: 0x2922A, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthGTMOAuth2Keychain keychainQueryForService:account:]', symObjAddr: 0x49C, symBinAddr: 0x2F40, symSize: 0x64 }
+  - { offsetInCU: 0x67F, offset: 0x29287, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthGTMOAuth2Keychain passwordForService:account:error:]', symObjAddr: 0x500, symBinAddr: 0x2FA4, symSize: 0x5C }
+  - { offsetInCU: 0x6FE, offset: 0x29306, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthGTMOAuth2Keychain passwordDataForService:account:error:]', symObjAddr: 0x55C, symBinAddr: 0x3000, symSize: 0x16C }
+  - { offsetInCU: 0x7F1, offset: 0x293F9, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthGTMOAuth2Keychain removePasswordForService:account:error:]', symObjAddr: 0x6C8, symBinAddr: 0x316C, symSize: 0xEC }
+  - { offsetInCU: 0x8AA, offset: 0x294B2, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthGTMOAuth2Keychain setPassword:forService:accessibility:account:error:]', symObjAddr: 0x7B4, symBinAddr: 0x3258, symSize: 0xA8 }
+  - { offsetInCU: 0x946, offset: 0x2954E, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthGTMOAuth2Keychain setPasswordData:forService:accessibility:account:error:]', symObjAddr: 0x85C, symBinAddr: 0x3300, symSize: 0x160 }
+  - { offsetInCU: 0xA32, offset: 0x2963A, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthGTMOAuth2Keychain useDataProtectionKeychain]', symObjAddr: 0x9BC, symBinAddr: 0x3460, symSize: 0x8 }
+  - { offsetInCU: 0xA67, offset: 0x2966F, size: 0x8, addend: 0x0, symName: '-[GTMAppAuthGTMOAuth2Keychain setUseDataProtectionKeychain:]', symObjAddr: 0x9C4, symBinAddr: 0x3468, symSize: 0x8 }
+  - { offsetInCU: 0x27, offset: 0x29797, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility persistenceResponseStringForAuthorization:]', symObjAddr: 0x0, symBinAddr: 0x3470, symSize: 0x238 }
+  - { offsetInCU: 0x8A, offset: 0x297FA, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility encodedOAuthValueForString:]', symObjAddr: 0xA1C, symBinAddr: 0x3E8C, symSize: 0x94 }
+  - { offsetInCU: 0x114, offset: 0x29884, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility persistenceResponseStringForAuthorization:]', symObjAddr: 0x0, symBinAddr: 0x3470, symSize: 0x238 }
+  - { offsetInCU: 0x193, offset: 0x29903, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility authorizeFromKeychainForName:tokenURL:redirectURI:clientID:clientSecret:]', symObjAddr: 0x238, symBinAddr: 0x36A8, symSize: 0xE8 }
+  - { offsetInCU: 0x230, offset: 0x299A0, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility authorizeFromPersistenceString:tokenURL:redirectURI:clientID:clientSecret:]', symObjAddr: 0x320, symBinAddr: 0x3790, symSize: 0x388 }
+  - { offsetInCU: 0x345, offset: 0x29AB5, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility authForGoogleFromKeychainForName:clientID:clientSecret:]', symObjAddr: 0x6A8, symBinAddr: 0x3B18, symSize: 0xD4 }
+  - { offsetInCU: 0x3E2, offset: 0x29B52, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility removeAuthFromKeychainForName:]', symObjAddr: 0x77C, symBinAddr: 0x3BEC, symSize: 0xC }
+  - { offsetInCU: 0x420, offset: 0x29B90, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility saveAuthToKeychainForName:authentication:]', symObjAddr: 0x788, symBinAddr: 0x3BF8, symSize: 0x98 }
+  - { offsetInCU: 0x482, offset: 0x29BF2, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility encodedQueryParametersForDictionary:]', symObjAddr: 0x820, symBinAddr: 0x3C90, symSize: 0x1FC }
+  - { offsetInCU: 0x542, offset: 0x29CB2, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility dictionaryWithResponseString:]', symObjAddr: 0xAB0, symBinAddr: 0x3F20, symSize: 0x240 }
+  - { offsetInCU: 0x61D, offset: 0x29D8D, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility unencodedOAuthParameterForString:]', symObjAddr: 0xCF0, symBinAddr: 0x4160, symSize: 0x60 }
+  - { offsetInCU: 0x671, offset: 0x29DE1, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility googleAuthorizationURL]', symObjAddr: 0xD50, symBinAddr: 0x41C0, symSize: 0x14 }
+  - { offsetInCU: 0x6B4, offset: 0x29E24, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility googleTokenURL]', symObjAddr: 0xD64, symBinAddr: 0x41D4, symSize: 0x14 }
+  - { offsetInCU: 0x6F7, offset: 0x29E67, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility googleRevocationURL]', symObjAddr: 0xD78, symBinAddr: 0x41E8, symSize: 0x14 }
+  - { offsetInCU: 0x73A, offset: 0x29EAA, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility googleUserInfoURL]', symObjAddr: 0xD8C, symBinAddr: 0x41FC, symSize: 0x14 }
+  - { offsetInCU: 0x77D, offset: 0x29EED, size: 0x8, addend: 0x0, symName: '+[GTMOAuth2KeychainCompatibility nativeClientRedirectURI]', symObjAddr: 0xDA0, symBinAddr: 0x4210, symSize: 0xC }
+...

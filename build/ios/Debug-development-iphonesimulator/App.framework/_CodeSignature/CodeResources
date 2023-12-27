@@ -10,19 +10,23 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		21tVqbIV90TbglF4ZJhNBz8uj4w=
+		qkOFoZR+8EYwgL8hfEE1I5xa8Rw=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		vyGp6PvFo4RvsFtPoIWeCReyIC8=
+		kML+e1oGRfEK+9QehY393xD/CaY=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
-		+D1xbIOooc3ypce1+jh+mmLy1J0=
+		83jZKkRpretOYQvRnN48/v51qVE=
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		adJ1pI2Z+cUCeOrJfKfFiVBcs74=
+		ZczEC1++JJNDwBP6j3v6V+1ubI0=
+		</data>
+		<key>flutter_assets/assets/images/agri_logo.png</key>
+		<data>
+		bFp2o4AMP90LwFT4ZFRjD8D0HjA=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -34,7 +38,19 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		mumWV0MjsRz/OJ8HiILgG4hreRA=
+		hO0eN10W94KmFzajwNmRkycKMxM=
+		</data>
+		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
+		<data>
+		uUtYhUJxJH+lEL1ch7dyMO5YVIc=
+		</data>
+		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf</key>
+		<data>
+		2qlhM5dzNTx2SaPhAbWCrCSS1z8=
+		</data>
+		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf</key>
+		<data>
+		e0kg5q9IIhoUqIIb2xKRlVFJN/w=
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -51,28 +67,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9WbMb8zGVzZcAZeszzp9b4D4Ugn/Zm/3dPTcvFJKqEI=
+			aRxpneluzASEqvviHO4h6F0J8XnMwgtQ39/9vL8mS34=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RBNvo1WzZ4oRRq0W9+hknpT7T8If536DEMBg9hyq/4o=
+			BIiI5hVh4ErfaFyjJc0cJZp7ytuWmWybCrgfR1YR8x8=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KLHrKz0uGtYLjIsPkQCxzL9JL3+pf1vrtR6pfnOSbn0=
+			KjbDWLRN7Jzc9a+2QybJSNfOTLuKq+lCLtDVezZE4QY=
 			</data>
 		</dict>
 		<key>flutter_assets/NOTICES.Z</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4uojIms0Pd2pij2WyHrtFMINPWDDIa9+zLz+sOyLbtc=
+			NP7n68yc2qBGS3fFM1Uaxbxak6ZzwXSzAk3xy0v1tvY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/agri_logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GwUcuR0FYFyVa3QbkFoywIDSTT8Gi1HJIEvQ4paVu4w=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -93,7 +116,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9XNTyt6cZXQdTriJe8en6DxwG4n5/GyAnr/eTWGAwZA=
+			k9QdzsrjuKtSoSs/uvx5JqoIgBrSHfvjF/RJLaXr25M=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PIAy9P/E9pg+JtVzzRnYHKVS0ZL8GHInLKq+369QLBw=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q4IDU/32RXM02bHzZ+jrgy9fvDwy1N4NL1JtQB5o0uc=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			w2pgOtOQJdCgxy1Iyym6iWSGXbIRYPXC4sxmlO0LoTA=
 			</data>
 		</dict>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
