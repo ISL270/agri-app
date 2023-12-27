@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:formz/formz.dart';
+import 'package:gap/gap.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({super.key});
@@ -11,6 +12,7 @@ class LoginForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocListener<LoginCubit, LoginState>(
+      listenWhen: (previous, current) => previous.status != current.status,
       listener: (context, state) {
         if (state.status.isFailure) {
           ScaffoldMessenger.of(context)
@@ -22,28 +24,26 @@ class LoginForm extends StatelessWidget {
             );
         }
       },
-      child: Align(
-        alignment: const Alignment(0, -1 / 3),
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Image.asset(
-                'assets/images/agri_logo.png',
-                height: 120,
-              ),
-              const SizedBox(height: 16),
-              _EmailInput(),
-              const SizedBox(height: 8),
-              _PasswordInput(),
-              const SizedBox(height: 8),
-              _LoginButton(),
-              const SizedBox(height: 8),
-              _GoogleLoginButton(),
-              const SizedBox(height: 4),
-              _SignUpButton(),
-            ],
-          ),
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.symmetric(vertical: 100, horizontal: 25),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Image.asset(
+              'assets/images/agri_logo.png',
+              height: 120,
+            ),
+            const Gap(40),
+            _EmailInput(),
+            const Gap(15),
+            _PasswordInput(),
+            const Gap(15),
+            _LoginButton(),
+            const Gap(25),
+            _GoogleLoginButton(),
+            const Gap(15),
+            _SignUpButton(),
+          ],
         ),
       ),
     );
