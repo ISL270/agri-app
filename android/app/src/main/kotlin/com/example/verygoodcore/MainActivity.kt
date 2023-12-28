@@ -1,4 +1,4 @@
-package com.example.verygoodcore.agri
+package dev.eslam.agri
 
 import io.flutter.embedding.android.FlutterActivity
 

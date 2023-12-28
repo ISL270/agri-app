@@ -2,7 +2,7 @@
 // ignore_for_file: lines_longer_than_80_chars, avoid_classes_with_only_static_members
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
-    show defaultTargetPlatform, kIsWeb, TargetPlatform;
+    show TargetPlatform, defaultTargetPlatform, kIsWeb;
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -67,7 +67,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '443778834970',
     projectId: 'agri-4f707',
     storageBucket: 'agri-4f707.appspot.com',
-    iosBundleId: 'com.example.verygoodcore.agri',
+    iosBundleId: 'dev.eslam.agri',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
